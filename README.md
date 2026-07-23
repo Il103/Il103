@@ -164,6 +164,5 @@ VS Code
 [![GitHub Followers](https://img.shields.io/github/followers/Il103?style=flat-square&color=7B61FF&labelColor=0D1117)](https://github.com/Il103)
 [![Total Stars](https://img.shields.io/github/stars/Il103?style=flat-square&color=FFD700&labelColor=0D1117)](https://github.com/Il103)
 [![Last Commit](https://img.shields.io/github/last-commit/Il103?style=flat-square&color=00E5FF&labelColor=0D1117&link=https://github.com/Il103)](https://github.com/Il103)
-[![Repo Count](https://img.shields.io/github/repos/Il103?style=flat-square)](https://github.com/Il103)
 
 </div>
