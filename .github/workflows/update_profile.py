@@ -28,53 +28,16 @@ def time_ago(date_str):
     except:
         return "N/A"
 
-def get_repo_info(owner, repo_name):
-    """Get repo info including recent commits and file structure."""
+def check_repo_has_code(owner, repo_name):
+    """Check if a repo has actual code files (not just README)."""
     try:
-        info = api_get(f"https://api.github.com/repos/{owner}/{repo_name}")
-
-        # Get default branch
-        default_branch = info.get("default_branch", "main")
-
-        # Get recent commits by Il103
-        commits = api_get(f"https://api.github.com/repos/{owner}/{repo_name}/commits?per_page=3&author=Il103")
-
-        # Get top-level tree to detect file types
-        tree = api_get(f"https://api.github.com/repos/{owner}/{repo_name}/git/trees/{default_branch}?recursive=0")
+        tree = api_get(f"https://api.github.com/repos/{owner}/{repo_name}/git/trees/HEAD?recursive=0")
         files = [t["path"] for t in tree.get("tree", [])]
-
-        # Detect status: has code files beyond just README/docs?
         code_extensions = {".c", ".cpp", ".h", ".java", ".py", ".sh", ".mk", ".bp", ".rc", ".prop", ".xml", ".te", ".conf", ".cfg", ".config", ".dts", ".dtsi"}
         has_code = any(any(f.endswith(ext) for ext in code_extensions) for f in files)
-        has_readme = any("README" in f.upper() for f in files)
-
-        # Detect what kind of tree this is
-        tree_type = "unknown"
-        if "BoardConfig.mk" in files or "device.mk" in files:
-            tree_type = "device"
-        elif "AndroidProducts.mk" in files or "vendor.mk" in files:
-            tree_type = "vendor"
-        elif "Makefile" in files or "Kconfig" in files or any(f.startswith("arch/") for f in files):
-            tree_type = "kernel"
-        elif "Android.mk" in files and any("twrp" in f.lower() for f in files):
-            tree_type = "recovery"
-        elif "x6886.xml" in files or "manifest.xml" in files:
-            tree_type = "manifest"
-
-        return {
-            "name": repo_name,
-            "type": tree_type,
-            "has_code": has_code,
-            "has_readme": has_readme,
-            "files": files,
-            "commits": commits if isinstance(commits, list) else [],
-            "default_branch": default_branch,
-            "description": info.get("description", ""),
-            "updated_at": info.get("updated_at", ""),
-            "stars": info.get("stargazers_count", 0)
-        }
-    except Exception as e:
-        return {"name": repo_name, "type": "unknown", "has_code": False, "commits": [], "files": [], "error": str(e)}
+        return has_code
+    except:
+        return False
 
 # ---- Main ----
 print("Fetching repos...")
@@ -91,121 +54,78 @@ while True:
 
 print(f"Found {len(all_repos)} repos")
 
-# ---- Detect projects ----
-# A "project" is a group of repos that share a device name pattern
-# Patterns: android_device_*, vendor_*, kernel_*, *_device_*
-projects = {}
+# ---- Detect main project (X6886) ----
+device_name = "INFINIX_X6886"
+device_repo = "android_device_infinix_x6886"
+vendor_repo = "vendor_infinix_x6886"
+kernel_repo = "kernel_infinix_x6886"
+manifest_repo = "android_manifest_x6886"
+recovery_repo = "twrp_device_infinix_X6886"
 
-for repo in all_repos:
-    name = repo["name"]
+# Check status of each component
+print("Checking component status...")
+device_done = check_repo_has_code("Il103", device_repo)
+vendor_done = check_repo_has_code("Il103", vendor_repo)
+kernel_done = check_repo_has_code("Il103", kernel_repo)
+manifest_done = check_repo_has_code("Il103", manifest_repo)
+recovery_done = check_repo_has_code("Il103", recovery_repo)
 
-    # Detect device name from repo name
-    device_name = None
-    repo_type = None
+print(f"  Device: {'Done' if device_done else 'Partial'}")
+print(f"  Vendor: {'Done' if vendor_done else 'Partial'}")
+print(f"  Kernel: {'Done' if kernel_done else 'Partial'}")
+print(f"  Manifest: {'Done' if manifest_done else 'Partial'}")
+print(f"  Recovery: {'Done' if recovery_done else 'Partial'}")
 
-    if name.startswith("android_device_"):
-        parts = name.replace("android_device_", "")
-        device_name = parts
-        repo_type = "device"
-    elif name.startswith("vendor_"):
-        parts = name.replace("vendor_", "")
-        device_name = parts
-        repo_type = "vendor"
-    elif name.startswith("kernel_"):
-        parts = name.replace("kernel_", "")
-        device_name = parts
-        repo_type = "kernel"
-    elif name.startswith("android_manifest_"):
-        parts = name.replace("android_manifest_", "")
-        device_name = parts
-        repo_type = "manifest"
-    elif "twrp" in name and "device" in name:
-        # twrp_device_infinix_X6886 -> extract device
-        parts = name.split("_")
-        for i, p in enumerate(parts):
-            if p == "device" and i + 2 < len(parts):
-                device_name = "_".join(parts[i+1:])
-                repo_type = "recovery"
-                break
+# Get default branches
+def get_branch(repo):
+    try:
+        info = api_get(f"https://api.github.com/repos/Il103/{repo}")
+        return info.get("default_branch", "main")
+    except:
+        return "main"
 
-    if device_name:
-        if device_name not in projects:
-            projects[device_name] = {}
-        projects[device_name][repo_type] = {
-            "repo": name,
-            "info": repo,
-            "full_info": None  # will fill below
-        }
-
-print(f"Found {len(projects)} project(s): {list(projects.keys())}")
-
-# ---- Get detailed info for project repos ----
-for device_name, components in projects.items():
-    for comp_type, comp_data in components.items():
-        full = get_repo_info("Il103", comp_data["repo"])
-        comp_data["full_info"] = full
-        print(f"  {device_name}/{comp_type}: {comp_data['repo']} - has_code={full.get('has_code', False)}, commits={len(full.get('commits', []))}")
+device_branch = get_branch(device_repo)
+vendor_branch = get_branch(vendor_repo)
+kernel_branch = get_branch(kernel_repo)
+manifest_branch = get_branch(manifest_repo)
+recovery_branch = get_branch(recovery_repo)
 
 # ---- Build Current Project section ----
-project_section = "**Recent Activity**\n\n"
+def badge(label, status, color):
+    return f"[![{label}](https://img.shields.io/badge/{label}-{status}-{color}?style=flat-square)](https://github.com/Il103/{label.lower().replace(' ', '_').replace('/', '_')})"
 
-for device_name, components in projects.items():
-    # Pick the most recent project (by updated_at)
-    latest_update = ""
-    for comp_type, comp_data in components.items():
-        updated = comp_data["info"].get("updated_at", "")
-        if updated > latest_update:
-            latest_update = updated
+status_badges = []
+status_badges.append(f"[![Device Tree](https://img.shields.io/badge/Device%20Tree-{'Done' if device_done else 'Partial'}-{('3DDC84' if device_done else 'FFD700')}?style=flat-square)](https://github.com/Il103/{device_repo})")
+status_badges.append(f"[![Vendor Tree](https://img.shields.io/badge/Vendor%20Tree-{'Done' if vendor_done else 'Partial'}-{('3DDC84' if vendor_done else 'FFD700')}?style=flat-square)](https://github.com/Il103/{vendor_repo})")
+status_badges.append(f"[![Kernel](https://img.shields.io/badge/Kernel-{'Done' if kernel_done else 'Pending'}-{('3DDC84' if kernel_done else 'FF006E')}?style=flat-square)](https://github.com/Il103/{kernel_repo})")
 
-    project_section += f"### {device_name.upper()}\n\n"
+project_section = f"""### {device_name}
 
-    # Status badges
-    status_parts = []
-    for comp_type in ["device", "vendor", "kernel", "manifest", "recovery"]:
-        if comp_type in components:
-            full = components[comp_type]["full_info"]
-            has_code = full.get("has_code", False) if full else False
-            status = "Done" if has_code else "Partial"
-            color = "3DDC84" if has_code else "FFD700"
-            label = comp_type.capitalize()
-            if comp_type == "recovery":
-                label = "Recovery"
-            elif comp_type == "manifest":
-                label = "Manifest"
-            elif comp_type == "device":
-                label = "Device Tree"
-            elif comp_type == "vendor":
-                label = "Vendor Tree"
-            elif comp_type == "kernel":
-                label = "Kernel"
-            status_parts.append(f"[![{label}](https://img.shields.io/badge/{label}-{status}-{color}?style=flat-square)](https://github.com/Il103/{components[comp_type]['repo']})")
+{" ".join(status_badges)}
 
-    project_section += " ".join(status_parts) + "\n\n"
-
-    # Repos table
-    project_section += "| Repository | Branch | Status |\n"
-    project_section += "|------------|--------|--------|\n"
-
-    for comp_type in ["device", "vendor", "kernel", "manifest", "recovery"]:
-        if comp_type in components:
-            repo_name = components[comp_type]["repo"]
-            branch = components[comp_type]["info"].get("default_branch", "main")
-            full = components[comp_type]["full_info"]
-            has_code = full.get("has_code", False) if full else False
-            status = "Done" if has_code else "Partial"
-            project_section += f"| `{repo_name}` | `{branch}` | {status} |\n"
-
-    project_section += "\n"
+| Repository | Branch | Status |
+|------------|--------|--------|
+| `{device_repo}` | `{device_branch}` | {"Done" if device_done else "Partial"} |
+| `{vendor_repo}` | `{vendor_branch}` | {"Done" if vendor_done else "Partial"} |
+| `{kernel_repo}` | `{kernel_branch}` | {"Done" if kernel_done else "Partial"} |
+| `{manifest_repo}` | `{manifest_branch}` | {"Done" if manifest_done else "Partial"} |
+| `{recovery_repo}` | `{recovery_branch}` | {"Done" if recovery_done else "Partial"} |
+"""
 
 # ---- Build Live Activity section ----
-activity_section = "**Recent Activity**\n\n"
-activity_section += "| Repository | Last Commit | Time |\n"
+print("Building live activity...")
+activity_repos = [
+    device_repo, vendor_repo, kernel_repo, manifest_repo, recovery_repo
+]
+# Add other repos
+for repo in all_repos:
+    if repo["name"] not in activity_repos and not repo.get("fork", False):
+        activity_repos.append(repo["name"])
+
+activity_section = "| Repository | Last Commit | Time |\n"
 activity_section += "|------------|-------------|------|\n"
 
-activity_repos = [r["name"] for r in all_repos if not r.get("fork", False)]
-activity_repos.sort(key=lambda x: next((comp["info"].get("updated_at", "") for comps in projects.values() for comp in comps.values() if comp["repo"] == x), ""), reverse=True)
-
-for repo_name in activity_repos[:6]:
+for repo_name in activity_repos[:8]:
     try:
         commits = api_get(f"https://api.github.com/repos/Il103/{repo_name}/commits?per_page=1&author=Il103")
         if commits and isinstance(commits, list) and len(commits) > 0:
