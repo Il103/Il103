@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://github.com/Il103">
-  <img src="https://capsule-render.vercel.app/api?type=cylinder&height=350&color=0:0D1117,15:004D7A,30:00E5FF,50:7B61FF,70:FF006E,100:FFD700&text=B+E+R+U&textBg=false&textColor=ffffff&fontSize=100&desc=Youssef+Mohammed+%7C+14+Years+Old+%7C+Egypt&descSize=20&descAlign=50&descAlignY=63&animation=scaleIn&stroke=00E5FF&strokeWidth=2"/>
+  <img src="https://capsule-render.vercel.app/api?type=wavy&height=280&color=0:0D1117,20:004D7A,40:00E5FF,60:7B61FF,80:FF006E,100:FFD700&text=B+E+R+U&textBg=false&textColor=ffffff&fontSize=120&fontAlignY=35&desc=Youssef+Mohammed+%7C+14+Years+Old+%7C+Egypt&descSize=18&descAlignY=58&animation=fadeIn&stroke=00E5FF&strokeWidth=3"/>
 </a>
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Black+Ops+One&size=32&duration=4000&pause=800&color=00E5FF&center=true&vCenter=true&multiline=true&repeat=true&width=1000&lines=Building+Custom+ROMs+From+Source;AOSP+LineageOS+Kernel+Recovery;From+Egypt+14+Years+Old;MediaTek+Samsung" />
