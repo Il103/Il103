@@ -1,0 +1,147 @@
+name: Update Profile Live
+
+on:
+  schedule:
+    - cron: '*/5 * * * *'
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Update live activity
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            
+            const token = process.env.GITHUB_TOKEN;
+            const headers = {
+              'Authorization': `token ${token}`,
+              'Accept': 'application/vnd.github.v3+json',
+              'User-Agent': 'B-ER-U-Profile-Bot'
+            };
+            
+            const repos = [
+              'Il103/android_device_infinix_x6886',
+              'Il103/vendor_infinix_x6886',
+              'Il103/kernel_infinix_x6886',
+              'Il103/android_manifest_x6886',
+              'Il103/Il103'
+            ];
+            
+            let allEvents = [];
+            
+            for (const repo of repos) {
+              try {
+                const events = await github.rest.activity.listPublicEventsForRepoUser({
+                  owner: repo.split('/')[0],
+                  repo: repo.split('/')[1],
+                  username: 'Il103',
+                  per_page: 5
+                });
+                for (const event of events.data) {
+                  allEvents.push({
+                    repo: repo.split('/')[1],
+                    type: event.type,
+                    message: event.payload.commits ? event.payload.commits[0]?.message : '',
+                    timestamp: event.created_at
+                  });
+                }
+              } catch(e) {}
+            }
+            
+            // Also get recent commits from each repo
+            let commitActivity = [];
+            for (const repo of repos) {
+              try {
+                const commits = await github.rest.repos.listCommits({
+                  owner: repo.split('/')[0],
+                  repo: repo.split('/')[1],
+                  per_page: 2,
+                  author: 'Il103'
+                });
+                for (const commit of commits.data) {
+                  const date = new Date(commit.commit.committer.date);
+                  const timeAgo = getTimeAgo(date);
+                  commitActivity.push({
+                    repo: repo.split('/')[1],
+                    message: commit.commit.message.split('\n')[0].substring(0, 60),
+                    timeAgo: timeAgo,
+                    sha: commit.sha.substring(0, 7),
+                    date: commit.commit.committer.date
+                  });
+                }
+              } catch(e) {}
+            }
+            
+            // Sort by date
+            commitActivity.sort((a, b) => new Date(b.date) - new Date(a.date));
+            commitActivity = commitActivity.slice(0, 10);
+            
+            function getTimeAgo(date) {
+              const seconds = Math.floor((new Date() - date) / 1000);
+              if (seconds < 60) return seconds + 's ago';
+              const minutes = Math.floor(seconds / 60);
+              if (minutes < 60) return minutes + 'm ago';
+              const hours = Math.floor(minutes / 60);
+              if (hours < 24) return hours + 'h ago';
+              const days = Math.floor(hours / 24);
+              return days + 'd ago';
+            }
+            
+            // Build live activity section
+            let liveSection = '**Recent Activity**\n\n';
+            liveSection += '| Repository | Commit | Time |\n';
+            liveSection += '|------------|--------|------|\n';
+            
+            for (const c of commitActivity) {
+              const repoShort = c.repo.replace('android_', '').replace('infinix_', '').replace('x6886', 'X6886');
+              liveSection += `| ${repoShort} | [${c.message}](${repos.find(r => r.endsWith(c.repo))}/commit/${c.sha}) | ${c.timeAgo} |\n`;
+            }
+            
+            const now = new Date().toISOString().replace('T', ' ').substring(0, 19) + ' UTC';
+            liveSection += `\n*Last updated: ${now}*`;
+            
+            // Read and update README
+            let readme = fs.readFileSync('README.md', 'utf8');
+            const marker = '<!-- LIVE-START -->';
+            const endMarker = '<!-- LIVE-END -->';
+            
+            const startIdx = readme.indexOf(marker) + marker.length;
+            const endIdx = readme.indexOf(endMarker);
+            
+            if (startIdx > marker.length && endIdx > startIdx) {
+              readme = readme.substring(0, startIdx) + '\n' + liveSection + '\n' + readme.substring(endIdx);
+            }
+            
+            fs.writeFileSync('README.md', readme);
+            
+            // Commit
+            const { data: current } = await github.rest.repos.get({
+              owner: 'Il103',
+              repo: 'Il103'
+            });
+            
+            const readmeContent = fs.readFileSync('README.md');
+            const encoded = readmeContent.toString('base64');
+            
+            await github.rest.repos.createOrUpdateFileContents({
+              owner: 'Il103',
+              repo: 'Il103',
+              path: 'README.md',
+              message: 'profile: live activity update',
+              content: encoded,
+              sha: current.data.sha,
+              committer: { name: 'B E R U Bot', email: 'berucrypt02@gmail.com' },
+              author: { name: 'B E R U Bot', email: 'berucrypt02@gmail.com' }
+            });
+            
+            console.log('Profile updated with ' + commitActivity.length + ' recent commits');
