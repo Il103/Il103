@@ -17,65 +17,65 @@
 <a href="https://t.me/BeruCrypt02"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/></a>
 <a href="https://discord.gg/beru.dev"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/></a>
 <a href="https://github.com/Il103"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-<a href="https://github.com/Il103/android_device_infinix_x6886"><img src="https://img.shields.io/badge/ðŸ“¦_Device_Tree-00E5FF?style=for-the-badge&logo=android&logoColor=white" alt="Device Tree"/></a>
-<a href="https://github.com/Il103/kernel_infinix_x6886"><img src="https://img.shields.io/badge/âš™ï¸_Kernel-7B61FF?style=for-the-badge&logo=linux&logoColor=white" alt="Kernel"/></a>
-<a href="https://github.com/Il103/vendor_infinix_x6886"><img src="https://img.shields.io/badge/ðŸ”§_Vendor-FF006E?style=for-the-badge&logo=gnu&logoColor=white" alt="Vendor"/></a>
-<a href="https://github.com/Il103/twrp_device_infinix_X6886"><img src="https://img.shields.io/badge/ðŸ›¡ï¸_Recovery-FFD700?style=for-the-badge&logo=cplusplus&logoColor=black" alt="Recovery"/></a>
+<a href="https://github.com/Il103/android_device_infinix_x6886"><img src="https://img.shields.io/badge/📦_Device_Tree-00E5FF?style=for-the-badge&logo=android&logoColor=white" alt="Device Tree"/></a>
+<a href="https://github.com/Il103/kernel_infinix_x6886"><img src="https://img.shields.io/badge/⚙️_Kernel-7B61FF?style=for-the-badge&logo=linux&logoColor=white" alt="Kernel"/></a>
+<a href="https://github.com/Il103/vendor_infinix_x6886"><img src="https://img.shields.io/badge/🔧_Vendor-FF006E?style=for-the-badge&logo=gnu&logoColor=white" alt="Vendor"/></a>
+<a href="https://github.com/Il103/twrp_device_infinix_X6886"><img src="https://img.shields.io/badge/🛡️_Recovery-FFD700?style=for-the-badge&logo=cplusplus&logoColor=black" alt="Recovery"/></a>
 
 </div>
 
 ---
 
 ```
- â•”â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•—
- â•‘                                                                       â•‘
- â•‘   â–ˆâ–ˆâ–ˆâ•—   â–ˆâ–ˆâ–ˆâ•—â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•— â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—â–ˆâ–ˆâ•—   â–ˆâ–ˆâ•—    â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—   â•‘
- â•‘   â–ˆâ–ˆâ–ˆâ–ˆâ•— â–ˆâ–ˆâ–ˆâ–ˆâ•‘â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•—â–ˆâ–ˆâ•”â•â•â•â•â•â•šâ–ˆâ–ˆâ•— â–ˆâ–ˆâ•”â•    â•šâ•â•â–ˆâ–ˆâ•”â•â•â•â–ˆâ–ˆâ•”â•â•â•â•â•â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•—  â•‘
- â•‘   â–ˆâ–ˆâ•”â–ˆâ–ˆâ–ˆâ–ˆâ•”â–ˆâ–ˆâ•‘â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•”â•â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—   â•šâ–ˆâ–ˆâ–ˆâ–ˆâ•”â•        â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—  â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•”â•  â•‘
- â•‘   â–ˆâ–ˆâ•‘â•šâ–ˆâ–ˆâ•”â•â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•—â–ˆâ–ˆâ•”â•â•â•    â•šâ–ˆâ–ˆâ•”â•         â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•”â•â•â•  â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•—  â•‘
- â•‘   â–ˆâ–ˆâ•‘ â•šâ•â• â–ˆâ–ˆâ•‘â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•”â•â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—   â–ˆâ–ˆâ•‘          â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—â–ˆâ–ˆâ•‘  â–ˆâ–ˆâ•‘  â•‘
- â•‘   â•šâ•â•     â•šâ•â•â•šâ•â•â•â•â•â• â•šâ•â•â•â•â•â•â•   â•šâ•â•          â•šâ•â•   â•šâ•â•â•â•â•â•â•â•šâ•â•  â•šâ•â•  â•‘
- â•‘                                                                       â•‘
- â•‘         âš¡ Youssef Mohammed âš¡ | 14 Years Old | Egypt ðŸ‡ªðŸ‡¬               â•‘
- â•‘                                                                       â•‘
- â•šâ•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+ ╔═══════════════════════════════════════════════════════════════════════╗
+ ║                                                                       ║
+ ║   ███╗   ███╗██████╗ ███████╗██╗   ██╗    ████████╗███████╗██████╗   ║
+ ║   ████╗ ████║██╔══██╗██╔════╝╚██╗ ██╔╝    ╚══██╔══╝██╔════╝██╔══██╗  ║
+ ║   ██╔████╔██║██████╔╝█████╗   ╚████╔╝        ██║   █████╗  ██████╔╝  ║
+ ║   ██║╚██╔╝██║██╔══██╗██╔══╝    ╚██╔╝         ██║   ██╔══╝  ██╔══██╗  ║
+ ║   ██║ ╚═╝ ██║██████╔╝███████╗   ██║          ██║   ███████╗██║  ██║  ║
+ ║   ╚═╝     ╚═╝╚═════╝ ╚══════╝   ╚═╝          ╚═╝   ╚══════╝╚═╝  ╚═╝  ║
+ ║                                                                       ║
+ ║         ⚡ Youssef Mohammed ⚡ | 14 Years Old | Egypt 🇪🇬               ║
+ ║                                                                       ║
+ ╚═══════════════════════════════════════════════════════════════════════╝
 ```
 
 ---
 
-## ðŸ‘¦ About Me
+## 👦 About Me
 
 ```
 $ whoami
-Youssef Mohammed (Il103) â€” 14-year-old Android developer from Egypt ðŸ‡ªðŸ‡¬
+Youssef Mohammed (Il103) — 14-year-old Android developer from Egypt 🇪🇬
 
 $ cat /etc/motd
-â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”
-  ðŸ”¥ Building Custom ROMs from source since age 12
-  ðŸ”¥ LineageOS 23.2 (Android 15) â€” Full AOSP builds
-  ðŸ”¥ Kernel compilation (Linux 5.10.198 â€” MT6789/Helio G96)
-  ðŸ”¥ OrangeFox & TWRP recovery development
-  ðŸ”¥ VNDK shim extraction & compatibility layer engineering
-  ðŸ”¥ VPS-based compilation (12 CPU / 24GB RAM Ubuntu server)
-â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”â”
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  🔥 Building Custom ROMs from source since age 12
+  🔥 LineageOS 23.2 (Android 15) — Full AOSP builds
+  🔥 Kernel compilation (Linux 5.10.198 — MT6789/Helio G96)
+  🔥 OrangeFox & TWRP recovery development
+  🔥 VNDK shim extraction & compatibility layer engineering
+  🔥 VPS-based compilation (12 CPU / 24GB RAM Ubuntu server)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 $ echo $MOTTO
-"The best way to predict the future is to build it â€” one commit at a time."
+"The best way to predict the future is to build it — one commit at a time."
 ```
 
 ---
 
-## ðŸ”§ Current Project
+## 🔧 Current Project
 
 <table>
   <tr>
     <td width="50%" valign="top">
 
-### ðŸ“± LineageOS 23.2 for Infinix X6886
+### 📱 LineageOS 23.2 for Infinix X6886
 
 ```
 $ adb shell getprop ro.build.display.id
-LineageOS 23.2 â€” Android 15 (Vanilla)
+LineageOS 23.2 — Android 15 (Vanilla)
 
 $ adb shell getprop ro.hardware
 mt6789 (Helio G96)
@@ -87,25 +87,25 @@ $ adb shell getprop ro.lineage.version
 lineage_X6886-userdebug 15 ...
 ```
 
-**Status:** ðŸ”´ In Progress â€” Kernel build pending, full source compilation next
+**Status:** 🔴 In Progress — Kernel build pending, full source compilation next
 
     </td>
     <td width="50%" valign="top">
 
-### ðŸ“‚ Repository Structure
+### 📂 Repository Structure
 
 ```
 android_manifest_x6886/
-â”œâ”€â”€ device/infinix/x6886       âœ… Pushed
-â”œâ”€â”€ vendor/infinix/x6886       âœ… Pushed (5010 blobs)
-â”œâ”€â”€ kernel/infinix/x6886       âœ… Pushed
-â””â”€â”€ manifest                   âœ… Updated
+├── device/infinix/x6886       ✅ Pushed
+├── vendor/infinix/x6886       ✅ Pushed (5010 blobs)
+├── kernel/infinix/x6886       ✅ Pushed
+└── manifest                   ✅ Updated
 
 /root/x6886/
-â”œâ”€â”€ .repo/                     âœ… Synced
-â”œâ”€â”€ device/infinix/x6886/      âœ… Built-in
-â”œâ”€â”€ vendor/infinix/x6886/      âœ… Built-in
-â””â”€â”€ kernel/infinix/x6886/      âœ… Built-in
+├── .repo/                     ✅ Synced
+├── device/infinix/x6886/      ✅ Built-in
+├── vendor/infinix/x6886/      ✅ Built-in
+└── kernel/infinix/x6886/      ✅ Built-in
 ```
 
 **Branch:** `*.Lineage.23.2` (all repos)
@@ -116,19 +116,19 @@ android_manifest_x6886/
 
 ---
 
-## ðŸ›  Tools & Technologies
+## 🛠 Tools & Technologies
 
 ```
 $ neofetch
   OS: Ubuntu 24.10 (GNU/Linux 6.8.0-45-generic aarch64)
-  Host: VPS â€” 12 vCPU / 24GB RAM
+  Host: VPS — 12 vCPU / 24GB RAM
   Kernel: 5.10.198 (for target device)
   Shell: bash 5.2
   Editor: VS Code + Remote SSH
   Compiler: GCC 15 (aarch64-linux-gnu)
 ```
 
-### ðŸ’¡ Skills
+### 💡 Skills
 
 <table>
   <tr>
@@ -167,7 +167,7 @@ $ neofetch
 
 ---
 
-## ðŸ“Š GitHub Analytics
+## 📊 GitHub Analytics
 
 <div align="center">
 
@@ -201,15 +201,15 @@ $ neofetch
 <div align="center">
 
 ```
-â•”â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•—
-â•‘                                                                      â•‘
-â•‘   âš¡ "Code is like humor. When you have to explain it, it's bad."    â•‘
-â•‘                                                                      â•‘
-â•‘   ðŸ“§ berucrypt02@gmail.com                                          â•‘
-â•‘   ðŸ“± Telegram: @BeruCrypt02                                         â•‘
-â•‘   ðŸ’¬ Discord: beru.dev                                              â•‘
-â•‘                                                                      â•‘
-â•šâ•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•â•
+╔══════════════════════════════════════════════════════════════════════╗
+║                                                                      ║
+║   ⚡ "Code is like humor. When you have to explain it, it's bad."    ║
+║                                                                      ║
+║   📧 berucrypt02@gmail.com                                          ║
+║   📱 Telegram: @BeruCrypt02                                         ║
+║   💬 Discord: beru.dev                                              ║
+║                                                                      ║
+╚══════════════════════════════════════════════════════════════════════╝
 ```
 
 </div>
