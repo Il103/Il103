@@ -2,9 +2,11 @@ name: Update Profile Live
 
 on:
   schedule:
-    - cron: '* * * * *'
+    - cron: '*/2 * * * *'
   push:
     branches: [main]
+    paths:
+      - 'README.md'
   workflow_dispatch:
 
 permissions:
@@ -20,15 +22,19 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Update live activity
+      - name: Run updater
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python .github/workflows/update_profile.py
 
-      - name: Commit changes
-        if: success()
+      - name: Commit and push
         run: |
           git config user.name "B E R U Bot"
           git config user.email "berucrypt02@gmail.com"
           git add README.md
-          git diff --cached --quiet || (git commit -m "profile: live activity update" && git push)
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "profile: auto-update"
+            git push
+          fi
