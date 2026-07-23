@@ -137,20 +137,7 @@ VS Code
 
 <div align="center">
 
-<table>
-<tr>
-<td>
-
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Il103&show_icons=true&theme=tokyonight&hide_rank=true&bg_color=0D1117&title_color=00E5FF&icon_color=7B61FF&text_color=C9D1D9&border_color=30363D&include_all_commits=true&count_private=true)](https://github.com/Il103)
-
-</td>
-<td>
-
 [![Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=Il103&theme=tokyonight&background=0D1117&ring=00E5FF&fire=FF006E&currStreakLabel=C9D1D9&sideNums=C9D1D9&border=30363D&date_format=M%20j%5B%2C%20Y%5D)](https://github.com/Il103)
-
-</td>
-</tr>
-</table>
 
 [![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Il103&bg_color=0D1117&color=00E5FF&line=7B61FF&point=FF006E&area=true&area_color=7B61FF20&hide_border=true&hide_title=true)](https://github.com/Il103)
 
