@@ -1,10 +1,12 @@
 <div align="center">
 
 <a href="https://github.com/Il103">
-  <img src="https://capsule-render.vercel.app/api?type=cylinder&height=350&color=0:0D1117,15:004D7A,30:00E5FF,50:7B61FF,70:FF006E,100:FFD700&text=B+E+R+U&textBg=false&textColor=ffffff&fontSize=100&desc=%E2%9A%A1+Youssef+Mohammed+%E2%9A%A1+%7C+14+Years+Old+%7C+Egypt+%F0%9F%87%AA%F0%9F%87%AC&descSize=20&descAlign=50&descAlignY=63&animation=scaleIn&stroke=00E5FF&strokeWidth=2"/>
+  <img src="https://capsule-render.vercel.app/api?type=cylinder&height=350&color=0:0D1117,15:004D7A,30:00E5FF,50:7B61FF,70:FF006E,100:FFD700&text=B+E+R+U&textBg=false&textColor=ffffff&fontSize=100&desc=Youssef+Mohammed+%7C+14+Years+Old+%7C+Egypt&descSize=20&descAlign=50&descAlignY=63&animation=scaleIn&stroke=00E5FF&strokeWidth=2"/>
 </a>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Black+Ops+One&size=32&duration=4000&pause=800&color=00E5FF&center=true&vCenter=true&multiline=true&repeat=true&width=1000&lines=%F0%9F%94%A5+Building+Custom+ROMs+From+Source+%F0%9F%94%A5;AOSP+%E2%9C%85+LineageOS+%E2%9C%85+Kernel+%E2%9C%85+Recovery+%E2%9C%85;From+Egypt+%F0%9F%87%AA%F0%9F%87%AC+%E2%9A%A1+14+Years+Old;MediaTek+%E2%9C%85+Samsung+%E2%9C%85+VPS+Builder+%E2%9C%85" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Black+Ops+One&size=32&duration=4000&pause=800&color=00E5FF&center=true&vCenter=true&multiline=true&repeat=true&width=1000&lines=Building+Custom+ROMs+From+Source;AOSP+LineageOS+Kernel+Recovery;From+Egypt+14+Years+Old;MediaTek+Samsung+VPS+Builder" />
+
+<br/>
 
 <img src="https://profile-counter.glitch.me/Il103/count.svg" alt=""/>
 
@@ -14,202 +16,174 @@
 
 <div align="center">
 
-<a href="https://t.me/BeruCrypt02"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram"/></a>
-<a href="https://discord.gg/beru.dev"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/></a>
-<a href="https://github.com/Il103"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-<a href="https://github.com/Il103/android_device_infinix_x6886"><img src="https://img.shields.io/badge/📦_Device_Tree-00E5FF?style=for-the-badge&logo=android&logoColor=white" alt="Device Tree"/></a>
-<a href="https://github.com/Il103/kernel_infinix_x6886"><img src="https://img.shields.io/badge/⚙️_Kernel-7B61FF?style=for-the-badge&logo=linux&logoColor=white" alt="Kernel"/></a>
-<a href="https://github.com/Il103/vendor_infinix_x6886"><img src="https://img.shields.io/badge/🔧_Vendor-FF006E?style=for-the-badge&logo=gnu&logoColor=white" alt="Vendor"/></a>
-<a href="https://github.com/Il103/twrp_device_infinix_X6886"><img src="https://img.shields.io/badge/🛡️_Recovery-FFD700?style=for-the-badge&logo=cplusplus&logoColor=black" alt="Recovery"/></a>
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/BeruCrypt02)
+[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/beru.dev)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Il103)
 
 </div>
 
 ---
 
-```
- ╔═══════════════════════════════════════════════════════════════════════╗
- ║                                                                       ║
- ║   ███╗   ███╗██████╗ ███████╗██╗   ██╗    ████████╗███████╗██████╗   ║
- ║   ████╗ ████║██╔══██╗██╔════╝╚██╗ ██╔╝    ╚══██╔══╝██╔════╝██╔══██╗  ║
- ║   ██╔████╔██║██████╔╝█████╗   ╚████╔╝        ██║   █████╗  ██████╔╝  ║
- ║   ██║╚██╔╝██║██╔══██╗██╔══╝    ╚██╔╝         ██║   ██╔══╝  ██╔══██╗  ║
- ║   ██║ ╚═╝ ██║██████╔╝███████╗   ██║          ██║   ███████╗██║  ██║  ║
- ║   ╚═╝     ╚═╝╚═════╝ ╚══════╝   ╚═╝          ╚═╝   ╚══════╝╚═╝  ╚═╝  ║
- ║                                                                       ║
- ║         ⚡ Youssef Mohammed ⚡ | 14 Years Old | Egypt 🇪🇬               ║
- ║                                                                       ║
- ╚═══════════════════════════════════════════════════════════════════════╝
-```
+## About Me
+
+**Youssef Mohammed** (Il103) -- 14-year-old Android developer from Egypt.
+
+Building custom ROMs, kernels, and recoveries from AOSP source. Currently focused on LineageOS 23.2 (Android 15) for Infinix X6886 (MT6789/Helio G96). Full source builds on a 12-core VPS with Ubuntu 24.10.
 
 ---
 
-## 👦 About Me
-
-```
-$ whoami
-Youssef Mohammed (Il103) — 14-year-old Android developer from Egypt 🇪🇬
-
-$ cat /etc/motd
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-  🔥 Building Custom ROMs from source since age 12
-  🔥 LineageOS 23.2 (Android 15) — Full AOSP builds
-  🔥 Kernel compilation (Linux 5.10.198 — MT6789/Helio G96)
-  🔥 OrangeFox & TWRP recovery development
-  🔥 VNDK shim extraction & compatibility layer engineering
-  🔥 VPS-based compilation (12 CPU / 24GB RAM Ubuntu server)
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-$ echo $MOTTO
-"The best way to predict the future is to build it — one commit at a time."
-```
-
----
-
-## 🔧 Current Project
+## Current Project: LineageOS 23.2 for Infinix X6886
 
 <table>
-  <tr>
-    <td width="50%" valign="top">
+<tr>
+<td width="50%" valign="top">
 
-### 📱 LineageOS 23.2 for Infinix X6886
+**Status**
 
-```
-$ adb shell getprop ro.build.display.id
-LineageOS 23.2 — Android 15 (Vanilla)
+[![Device Tree](https://img.shields.io/badge/Device%20Tree-Done-3DDC84?style=flat-square)](https://github.com/Il103/android_device_infinix_x6886)
+[![Vendor Tree](https://img.shields.io/badge/Vendor%20Tree-Done-3DDC84?style=flat-square)](https://github.com/Il103/vendor_infinix_x6886)
+[![Kernel](https://img.shields.io/badge/Kernel-Pending-FF006E?style=flat-square)](https://github.com/Il103/kernel_infinix_x6886)
+[![Full Build](https://img.shields.io/badge/Full%20Build-Pending-FF006E?style=flat-square)](https://github.com/Il103/android_device_infinix_x6886)
 
-$ adb shell getprop ro.hardware
-mt6789 (Helio G96)
+**Specs**
+- SoC: MediaTek MT6789 (Helio G96)
+- Kernel: Linux 5.10.198
+- ROM: LineageOS 23.2 (Android 15 Vanilla)
+- Compiler: GCC 15 (aarch64-linux-gnu)
 
-$ adb shell cat /proc/version
-Linux 5.10.198-android15-aarch64
+</td>
+<td width="50%" valign="top">
 
-$ adb shell getprop ro.lineage.version
-lineage_X6886-userdebug 15 ...
-```
+**Repositories**
 
-**Status:** 🔴 In Progress — Kernel build pending, full source compilation next
+| Repo | Branch | Status |
+|------|--------|--------|
+| `android_device_infinix_x6886` | `Device.Lineage.23.2` | Pushed |
+| `vendor_infinix_x6886` | `Vendor.Lineage.23.2` | Pushed |
+| `kernel_infinix_x6886` | `Kernel.Lineage.23.2` | Pushed |
+| `android_manifest_x6886` | `Manifest.Lineage.23.2` | Synced |
 
-    </td>
-    <td width="50%" valign="top">
+**Build Server**
+- 12 vCPU / 24GB RAM
+- Ubuntu 24.10
+- GCC cross-compiler (aarch64)
 
-### 📂 Repository Structure
-
-```
-android_manifest_x6886/
-├── device/infinix/x6886       ✅ Pushed
-├── vendor/infinix/x6886       ✅ Pushed (5010 blobs)
-├── kernel/infinix/x6886       ✅ Pushed
-└── manifest                   ✅ Updated
-
-/root/x6886/
-├── .repo/                     ✅ Synced
-├── device/infinix/x6886/      ✅ Built-in
-├── vendor/infinix/x6886/      ✅ Built-in
-└── kernel/infinix/x6886/      ✅ Built-in
-```
-
-**Branch:** `*.Lineage.23.2` (all repos)
-
-    </td>
-  </tr>
+</td>
+</tr>
 </table>
 
 ---
 
-## 🛠 Tools & Technologies
-
-```
-$ neofetch
-  OS: Ubuntu 24.10 (GNU/Linux 6.8.0-45-generic aarch64)
-  Host: VPS — 12 vCPU / 24GB RAM
-  Kernel: 5.10.198 (for target device)
-  Shell: bash 5.2
-  Editor: VS Code + Remote SSH
-  Compiler: GCC 15 (aarch64-linux-gnu)
-```
-
-### 💡 Skills
+## Tech Stack
 
 <table>
-  <tr>
-    <td>
+<tr>
+<td align="center" width="100">
 
-**Android / AOSP**
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg" width="50" height="50"/>
+<br/>
+Android / AOSP
 
-![Android](https://img.shields.io/badge/Android-100?style=flat-square&color=3DDC84&labelColor=0D1117)
+</td>
+<td align="center" width="100">
 
-**Linux Kernel**
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" width="50" height="50"/>
+<br/>
+Linux Kernel
 
-![Linux](https://img.shields.io/badge/Linux-95?style=flat-square&color=FCC624&labelColor=0D1117)
+</td>
+<td align="center" width="100">
 
-**Bash / Shell**
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="50" height="50"/>
+<br/>
+Python
 
-![Bash](https://img.shields.io/badge/Bash-90?style=flat-square&color=4EAA25&labelColor=0D1117)
+</td>
+<td align="center" width="100">
 
-    </td>
-    <td>
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" width="50" height="50"/>
+<br/>
+Bash
 
-**Python**
+</td>
+<td align="center" width="100">
 
-![Python](https://img.shields.io/badge/Python-85?style=flat-square&color=3776AB&labelColor=0D1117)
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="50" height="50"/>
+<br/>
+Git
 
-**Git / GitHub**
+</td>
+<td align="center" width="100">
 
-![Git](https://img.shields.io/badge/Git-90?style=flat-square&color=F05032&labelColor=0D1117)
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="50" height="50"/>
+<br/>
+GitHub
 
-**C / C++**
+</td>
+<td align="center" width="100">
 
-![C](https://img.shields.io/badge/C-80?style=flat-square&color=A8B9CC&labelColor=0D1117)
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/visualstudio/visualstudio-plain.svg" width="50" height="50"/>
+<br/>
+VS Code
 
-    </td>
-  </tr>
+</td>
+<td align="center" width="100">
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain.svg" width="50" height="50"/>
+<br/>
+Ubuntu
+
+</td>
+</tr>
 </table>
 
 ---
 
-## 📊 GitHub Analytics
+## Live Activity
+
+<!-- LIVE-START -->
+*Last updated: Loading...*
+<!-- LIVE-END -->
+
+---
+
+## GitHub Stats
 
 <div align="center">
 
 <table>
-  <tr>
-    <td>
-      <a href="https://github.com/Il103">
-        <img src="https://github-readme-stats.vercel.app/api?username=Il103&show_icons=true&theme=tokyonight&hide_rank=true&bg_color=0D1117&title_color=00E5FF&icon_color=7B61FF&text_color=C9D1D9&border_color=30363D&include_all_commits=true&count_private=true" height="180"/>
-      </a>
-    </td>
-    <td>
-      <a href="https://github.com/Il103">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=Il103&theme=tokyonight&background=0D1117&ring=00E5FF&fire=FF006E&currStreakLabel=C9D1D9&sideNums=C9D1D9&border=30363D&date_format=M%20j%5B%2C%20Y%5D" height="180"/>
-      </a>
-    </td>
-  </tr>
+<tr>
+<td>
+
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Il103&show_icons=true&theme=tokyonight&hide_rank=true&bg_color=0D1117&title_color=00E5FF&icon_color=7B61FF&text_color=C9D1D9&border_color=30363D&include_all_commits=true&count_private=true)](https://github.com/Il103)
+
+</td>
+<td>
+
+[![Streak Stats](https://github-readme-streak-stats.herokuapp.com/?user=Il103&theme=tokyonight&background=0D1117&ring=00E5FF&fire=FF006E&currStreakLabel=C9D1D9&sideNums=C9D1D9&border=30363D&date_format=M%20j%5B%2C%20Y%5D)](https://github.com/Il103)
+
+</td>
+</tr>
 </table>
 
-<a href="https://github.com/Il103">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Il103&bg_color=0D1117&color=00E5FF&line=7B61FF&point=FF006E&area=true&area_color=7B61FF20&hide_border=true&hide_title=true" width="700"/>
-</a>
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Il103&bg_color=0D1117&color=00E5FF&line=7B61FF&point=FF006E&area=true&area_color=7B61FF20&hide_border=true&hide_title=true)](https://github.com/Il103)
+
+</div>
+
+---
+
+<div align="center">
+
+[![Profile Views](https://komarev.com/ghpvc/?username=Il103&color=00E5FF&style=flat-square&label=PROFILE+VIEWS&label_color=0D1117)](https://github.com/Il103)
+[![GitHub Followers](https://img.shields.io/github/followers/Il103?style=flat-square&color=7B61FF&labelColor=0D1117)](https://github.com/Il103)
+[![Total Stars](https://img.shields.io/github/stars/Il103?style=flat-square&color=FFD700&labelColor=0D1117)](https://github.com/Il103)
+[![Last Commit](https://img.shields.io/github/last-commit/Il103?style=flat-square&color=00E5FF&labelColor=0D1117)](https://github.com/Il103)
+[![Repo Count](https://img.shields.io/github/repos/Il103?style=flat-square&color=3DDC84&labelColor=0D1117)](https://github.com/Il103)
 
 <br/>
 
-![Visitor Count](https://komarev.com/ghpvc/?username=Il103&color=00E5FF&style=flat-square&label=PROFILE+VIEWS&label_color=0D1117)
-
-</div>
-
----
-
-<div align="center">
-
-```
-╔══════════════════════════════════════════════════════════════════════╗
-║                                                                      ║
-║   ⚡ "Code is like humor. When you have to explain it, it's bad."    ║
-║                                                                      ║
-║   📧 berucrypt02@gmail.com                                          ║
-║   📱 Telegram: @BeruCrypt02                                         ║
-║   💬 Discord: beru.dev                                              ║
-║                                                                      ║
-╚══════════════════════════════════════════════════════════════════════╝
-```
+[![Device Tree Stars](https://img.shields.io/github/stars/Il103/android_device_infinix_x6886?style=flat-square&label=Device+Tree+Stars&color=FFD700&labelColor=0D1117)](https://github.com/Il103/android_device_infinix_x6886)
+[![Kernel Stars](https://img.shields.io/github/stars/Il103/kernel_infinix_x6886?style=flat-square&label=Kernel+Stars&color=7B61FF&labelColor=0D1117)](https://github.com/Il103/kernel_infinix_x6886)
+[![Vendor Stars](https://img.shields.io/github/stars/Il103/vendor_infinix_x6886?style=flat-square&label=Vendor+Stars&color=FF006E&labelColor=0D1117)](https://github.com/Il103/vendor_infinix_x6886)
 
 </div>
