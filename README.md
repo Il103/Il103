@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://github.com/Il103">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=350&color=0:0D1117,15:004D7A,30:00E5FF,50:7B61FF,70:FF006E,100:FFD700&text=Youssef+Mohammed&textBg=false&textColor=ffffff&fontSize=80&desc=%E2%9A%A1+B+E+R+U+%E2%9A%A1+%7C+14+Years+Old+%7C+Egypt+%F0%9F%87%AA%F0%9F%87%AC&descSize=18&descAlign=50&descAlignY=62&animation=fadeIn&stroke=00E5FF&strokeWidth=2" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=350&color=0:0D1117,15:004D7A,30:00E5FF,50:7B61FF,70:FF006E,100:FFD700&text=B+E+R+U&textBg=false&textColor=ffffff&fontSize=100&desc=%E2%9A%A1+Youssef+Mohammed+%E2%9A%A1+%7C+14+Years+Old+%7C+Egypt+%F0%9F%87%AA%F0%9F%87%AC&descSize=18&descAlign=50&descAlignY=62&animation=fadeIn&stroke=00E5FF&strokeWidth=3" />
 </a>
 
 <br/>
@@ -9,6 +9,8 @@
 <img src="https://readme-typing-svg.herokuapp.com?font=Black+Ops+One&size=32&duration=4000&pause=800&color=00E5FF&center=true&vCenter=true&multiline=true&repeat=true&width=1000&lines=%F0%9F%94%A5+Building+Custom+ROMs+From+Source+%F0%9F%94%A5;AOSP+%E2%9C%85+LineageOS+%E2%9C%85+Kernel+%E2%9C%85+Recovery+%E2%9C%85;From+Egypt+%F0%9F%87%AA%F0%9F%87%AC+%E2%9A%A1+14+Years+Old;MediaTek+%E2%9C%85+Samsung+%E2%9C%85+VPS+Builder+%E2%9C%85" />
 
 <br/>
+
+<img src="https://profile-counter.glitch.me/Il103/count.svg" alt="Profile Views"/>
 
 </div>
 
