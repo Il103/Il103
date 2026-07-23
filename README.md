@@ -106,9 +106,7 @@ VS Code
 </td>
 <td align="center" width="100">
 
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain.svg" width="50" height="50"/>
-<br/>
-Ubuntu
+[![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=flat&logo=ubuntu&logoColor=white)](https://ubuntu.com)
 
 </td>
 </tr>
