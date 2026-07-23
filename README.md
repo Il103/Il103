@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://github.com/Il103">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=350&color=0:0D1117,15:004D7A,30:00E5FF,50:7B61FF,70:FF006E,100:FFD700&text=B+E+R+U&textBg=false&textColor=ffffff&fontSize=100&desc=%E2%9A%A1+Youssef+Mohammed+%E2%9A%A1+%7C+14+Years+Old+%7C+Egypt+%F0%9F%87%AA%F0%9F%87%AC&descSize=18&descAlign=50&descAlignY=62&animation=fadeIn&stroke=00E5FF&strokeWidth=3" />
+  <img src="https://capsule-render.vercel.app/api?type=cylinder&height=350&color=0:0D1117,15:004D7A,30:00E5FF,50:7B61FF,70:FF006E,100:FFD700&text=B+E+R+U&textBg=false&textColor=ffffff&fontSize=100&desc=%E2%9A%A1+Youssef+Mohammed+%E2%9A%A1+%7C+14+Years+Old+%7C+Egypt+%F0%9F%87%AA%F0%9F%87%AC&descSize=20&descAlign=50&descAlignY=63&animation=scaleIn&stroke=00E5FF&strokeWidth=2"/>
 </a>
 
 <br/>
@@ -16,9 +16,15 @@
 
 <div align="center">
 
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&label=%40BeruCrypt02)](https://t.me/BeruCrypt02)
-[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white&label=beru.dev)](https://discord.gg/beru.dev)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&label=Il103)](https://github.com/Il103)
+<a href="https://t.me/BeruCrypt02">
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Telegram/telegram1.svg" alt="Telegram"/>
+</a>
+<a href="https://discord.gg/beru.dev">
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Discord/discord1.svg" alt="Discord"/>
+</a>
+<a href="https://github.com/Il103">
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/GitHub/github1.svg" alt="GitHub"/>
+</a>
 
 </div>
 
@@ -26,111 +32,70 @@
 
 ---
 
-## About Me
+## 👦 About Me
 
-| | |
-|---|---|
-| **Name** | Youssef Mohammed |
-| **Username** | Il103 (B E R U) |
-| **Age** | 14 Years Old |
-| **Location** | Egypt |
-| **Focus** | Android Custom ROM Development |
-
-> Building custom Android ROMs from source. AOSP, LineageOS, Kernel, and Recovery development.
+I am a 14-year-old Egyptian developer, passionate about Android development.
+I focus on developing custom ROMs, kernels, and Recoverys, especially for MediaTek and Samsung devices.
 
 ---
 
-## Active Projects
+## 🌐 Social Links
 
-<a href="https://github.com/Il103/android_device_infinix_x6886">
-  <img src="https://img.shields.io/badge/X6886_Device_Tree-00E5FF?style=for-the-badge&logo=android&logoColor=white"/>
+<a href="https://t.me/BeruCrypt02">
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Telegram/telegram2.svg" alt="Telegram"/>
 </a>
-<a href="https://github.com/Il103/vendor_infinix_x6886">
-  <img src="https://img.shields.io/badge/X6886_Vendor-7B61FF?style=for-the-badge&logo=android&logoColor=white"/>
+<a href="https://discord.gg/beru.dev">
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Discord/discord2.svg" alt="Discord"/>
 </a>
-<a href="https://github.com/Il103/kernel_infinix_x6886">
-  <img src="https://img.shields.io/badge/X6886_Kernel-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
+<a href="https://github.com/Il103">
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/GitHub/github2.svg" alt="GitHub"/>
 </a>
-<a href="https://github.com/Il103/android_device_tree_gta4lve">
-  <img src="https://img.shields.io/badge/GTA4LVE_Device-00E5FF?style=for-the-badge&logo=samsung&logoColor=white"/>
-</a>
-<a href="https://github.com/Il103/android_kernel_samsung_gta4lve">
-  <img src="https://img.shields.io/badge/GTA4LVE_Kernel-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
-</a>
-<a href="https://github.com/Il103/MegaTree">
-  <img src="https://img.shields.io/badge/MegaTree-FF6B6B?style=for-the-badge&logo=python&logoColor=white"/>
-</a>
-<a href="https://github.com/Il103/android_manifest_x6886">
-  <img src="https://img.shields.io/badge/Manifest-7B61FF?style=for-the-badge&logo=codeplex&logoColor=white"/>
-</a>
-
-<br/>
 
 ---
 
-## Tech Stack
+## 🛠 IDEs & Editors I Use
 
-<a href="https://git-scm.com">
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
-</a>
-<a href="https://github.com">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-</a>
-<a href="https://www.python.org">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
-</a>
-<a href="https://www.gnu.org/software/bash/">
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white"/>
-</a>
-<a href="https://ubuntu.com">
-  <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white"/>
-</a>
-<a href="https://code.visualstudio.com">
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
-</a>
-<a href="https://github.com/features/actions">
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white"/>
+<a href="https://code.visualstudio.com/">
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/VSCode/vscode1.svg" alt="VS Code"/>
 </a>
 <a href="https://developer.android.com/studio">
-  <img src="https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white"/>
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/AndroidStudio/androidstudio1.svg" alt="Android Studio"/>
 </a>
-<a href="https://www.w3.org/Protocols/">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-</a>
-<a href="https://www.gnu.org/software/make/">
-  <img src="https://img.shields.io/badge/GNU_Make-4EAA25?style=for-the-badge&logo=gnu&logoColor=white"/>
-</a>
-
-<br/>
 
 ---
 
-## Platforms
+## 👨‍💻 Tools & Technologies
 
-<a href="https://www.android.com">
-  <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white"/>
+<a href="https://git-scm.com">
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Git/git1.svg" alt="Git"/>
 </a>
-<a href="https://www.mediatek.com">
-  <img src="https://img.shields.io/badge/MediaTek_MT6789-FF0000?style=for-the-badge&logo=android&logoColor=white"/>
+<a href="https://github.com">
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/GitHub/github3.svg" alt="GitHub"/>
 </a>
-<a href="https://www.samsung.com">
-  <img src="https://img.shields.io/badge/Samsung-1428A0?style=for-the-badge&logo=samsung&logoColor=white"/>
+<a href="https://www.python.org">
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Python/python1.svg" alt="Python"/>
 </a>
-<a href="https://lineageos.org">
-  <img src="https://img.shields.io/badge/LineageOS_23.2-167C80?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEyIDJMMyAxMmg0djEwaDEwVjEyaDRMMTIgMnoiIGZpbGw9IiNmZmYiLz48L3N2Zz4=&logoColor=167C80"/>
+<a href="https://github.com/features/actions">
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/GitHubActions/actions1.svg" alt="GitHub Actions"/>
+</a>
+
+---
+
+## 💻 Operating Systems I Use
+
+<a href="https://developer.android.com">
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Android/android3.svg" alt="Android"/>
+</a>
+<a href="https://ubuntu.com">
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Ubuntu/ubuntu3.svg" alt="Ubuntu"/>
 </a>
 <a href="https://www.kernel.org">
-  <img src="https://img.shields.io/badge/Linux_Kernel_5.10-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
+  <img src="https://ziadoua.github.io/m3-Markdown-Badges/badges/Linux/linux3.svg" alt="Linux"/>
 </a>
-<a href="https://www.w3.org/html/">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
-</a>
-
-<br/>
 
 ---
 
-## GitHub Stats
+## 📊 GitHub Overview
 
 <p align="center">
   <a href="https://github.com/Il103">
