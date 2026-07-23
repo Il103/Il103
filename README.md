@@ -16,9 +16,9 @@
 
 <div align="center">
 
-[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=flat-square&logo=telegram&logoColor=white&label=%40BeruCrypt02)](https://t.me/BeruCrypt02)
-[![Discord](https://img.shields.io/badge/Discord-5865F2?style=flat-square&logo=discord&logoColor=white&label=beru.dev)](https://discord.gg/beru.dev)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white&label=Il103)](https://github.com/Il103)
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white&label=%40BeruCrypt02)](https://t.me/BeruCrypt02)
+[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white&label=beru.dev)](https://discord.gg/beru.dev)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&label=Il103)](https://github.com/Il103)
 
 </div>
 
@@ -43,25 +43,25 @@
 ## Active Projects
 
 <a href="https://github.com/Il103/android_device_infinix_x6886">
-  <img src="https://img.shields.io/badge/X6886_Device_Tree-00E5FF?style=flat-square&logo=android&logoColor=white"/>
+  <img src="https://img.shields.io/badge/X6886_Device_Tree-00E5FF?style=for-the-badge&logo=android&logoColor=white"/>
 </a>
 <a href="https://github.com/Il103/vendor_infinix_x6886">
-  <img src="https://img.shields.io/badge/X6886_Vendor-7B61FF?style=flat-square&logo=android&logoColor=white"/>
+  <img src="https://img.shields.io/badge/X6886_Vendor-7B61FF?style=for-the-badge&logo=android&logoColor=white"/>
 </a>
 <a href="https://github.com/Il103/kernel_infinix_x6886">
-  <img src="https://img.shields.io/badge/X6886_Kernel-FCC624?style=flat-square&logo=linux&logoColor=black"/>
+  <img src="https://img.shields.io/badge/X6886_Kernel-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
 </a>
 <a href="https://github.com/Il103/android_device_tree_gta4lve">
-  <img src="https://img.shields.io/badge/GTA4LVE_Device-00E5FF?style=flat-square&logo=samsung&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GTA4LVE_Device-00E5FF?style=for-the-badge&logo=samsung&logoColor=white"/>
 </a>
 <a href="https://github.com/Il103/android_kernel_samsung_gta4lve">
-  <img src="https://img.shields.io/badge/GTA4LVE_Kernel-FCC624?style=flat-square&logo=linux&logoColor=black"/>
+  <img src="https://img.shields.io/badge/GTA4LVE_Kernel-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
 </a>
 <a href="https://github.com/Il103/MegaTree">
-  <img src="https://img.shields.io/badge/MegaTree-FF6B6B?style=flat-square&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MegaTree-FF6B6B?style=for-the-badge&logo=python&logoColor=white"/>
 </a>
 <a href="https://github.com/Il103/android_manifest_x6886">
-  <img src="https://img.shields.io/badge/Manifest-7B61FF?style=flat-square&logo=codeplex&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Manifest-7B61FF?style=for-the-badge&logo=codeplex&logoColor=white"/>
 </a>
 
 <br/>
@@ -71,34 +71,34 @@
 ## Tech Stack
 
 <a href="https://git-scm.com">
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
 </a>
 <a href="https://github.com">
-  <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
 </a>
 <a href="https://www.python.org">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
 </a>
 <a href="https://www.gnu.org/software/bash/">
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white"/>
 </a>
 <a href="https://ubuntu.com">
-  <img src="https://img.shields.io/badge/Ubuntu-E95420?style=flat-square&logo=ubuntu&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white"/>
 </a>
 <a href="https://code.visualstudio.com">
-  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white"/>
+  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white"/>
 </a>
 <a href="https://github.com/features/actions">
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white"/>
 </a>
 <a href="https://developer.android.com/studio">
-  <img src="https://img.shields.io/badge/Android_Studio-3DDC84?style=flat-square&logo=android-studio&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Android_Studio-3DDC84?style=for-the-badge&logo=android-studio&logoColor=white"/>
 </a>
 <a href="https://www.w3.org/Protocols/">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
 </a>
 <a href="https://www.gnu.org/software/make/">
-  <img src="https://img.shields.io/badge/GNU_Make-4EAA25?style=flat-square&logo=gnu&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GNU_Make-4EAA25?style=for-the-badge&logo=gnu&logoColor=white"/>
 </a>
 
 <br/>
@@ -108,22 +108,22 @@
 ## Platforms
 
 <a href="https://www.android.com">
-  <img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white"/>
 </a>
 <a href="https://www.mediatek.com">
-  <img src="https://img.shields.io/badge/MediaTek_MT6789-FF0000?style=flat-square&logo=android&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MediaTek_MT6789-FF0000?style=for-the-badge&logo=android&logoColor=white"/>
 </a>
 <a href="https://www.samsung.com">
-  <img src="https://img.shields.io/badge/Samsung-1428A0?style=flat-square&logo=samsung&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Samsung-1428A0?style=for-the-badge&logo=samsung&logoColor=white"/>
 </a>
 <a href="https://lineageos.org">
-  <img src="https://img.shields.io/badge/LineageOS_23.2-167C80?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEyIDJMMyAxMmg0djEwaDEwVjEyaDRMMTIgMnoiIGZpbGw9IiNmZmYiLz48L3N2Zz4=&logoColor=167C80"/>
+  <img src="https://img.shields.io/badge/LineageOS_23.2-167C80?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEyIDJMMyAxMmg0djEwaDEwVjEyaDRMMTIgMnoiIGZpbGw9IiNmZmYiLz48L3N2Zz4=&logoColor=167C80"/>
 </a>
 <a href="https://www.kernel.org">
-  <img src="https://img.shields.io/badge/Linux_Kernel_5.10-FCC624?style=flat-square&logo=linux&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Linux_Kernel_5.10-FCC624?style=for-the-badge&logo=linux&logoColor=black"/>
 </a>
 <a href="https://www.w3.org/html/">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"/>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>
 </a>
 
 <br/>
@@ -150,6 +150,6 @@
 <br/>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Il103&color=00E5FF&style=flat-square&label=PROFILE+VIEWS&label_color=0D1117"/>
+  <img src="https://komarev.com/ghpvc/?username=Il103&color=00E5FF&style=for-the-badge&label=PROFILE+VIEWS&label_color=0D1117"/>
 </p>
 
