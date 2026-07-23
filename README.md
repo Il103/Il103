@@ -28,7 +28,7 @@
 
 **Youssef Mohammed** (Il103) -- 14-year-old Android developer from Egypt.
 
-Building custom ROMs, kernels, and recoveries from AOSP source. Currently focused on LineageOS 23.2 (Android 15) for Infinix X6886 (MT6789/Helio G96). Full source builds on a 12-core VPS with Ubuntu 24.10.
+Building custom ROMs, kernels, and recoveries from AOSP source. Currently focused on LineageOS 23.2 (Android 15) for Infinix X6886 (MT6789/Helio G200). Full source builds on a 12-core VPS with Ubuntu 24.10.
 
 ---
 
@@ -46,7 +46,7 @@ Building custom ROMs, kernels, and recoveries from AOSP source. Currently focuse
 [![Full Build](https://img.shields.io/badge/Full%20Build-Pending-FF006E?style=flat-square)](https://github.com/Il103/android_device_infinix_x6886)
 
 **Specs**
-- SoC: MediaTek MT6789 (Helio G96)
+- SoC: MediaTek MT6789 (Helio G200)
 - Kernel: Linux 5.10.198
 - ROM: LineageOS 23.2 (Android 15 Vanilla)
 - Compiler: GCC 15 (aarch64-linux-gnu)
