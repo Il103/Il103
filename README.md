@@ -28,90 +28,14 @@
 
 **Youssef Mohammed** (Il103) -- 14-year-old Android developer from Egypt.
 
-Building custom ROMs, kernels, and recoveries from AOSP source.
+Building custom ROMs, kernels, and recoveries from AOSP source. Currently focused on LineageOS 23.2 (Android 16) for Infinix X6886 (MT6789/Helio G96).
 
 ---
 
 ## Current Project
 
 <!-- PROJECT-START -->
-**Recent Activity**
-
-### INFINIX_X6886
-
-[![Device Tree](https://img.shields.io/badge/Device Tree-Done-3DDC84?style=flat-square)](https://github.com/Il103/android_device_infinix_x6886) [![Vendor Tree](https://img.shields.io/badge/Vendor Tree-Done-3DDC84?style=flat-square)](https://github.com/Il103/vendor_infinix_x6886) [![Kernel](https://img.shields.io/badge/Kernel-Done-3DDC84?style=flat-square)](https://github.com/Il103/kernel_infinix_x6886)
-
-| Repository | Branch | Status |
-|------------|--------|--------|
-| `android_device_infinix_x6886` | `Device.Lineage.23.2` | Done |
-| `vendor_infinix_x6886` | `Vendor.Lineage.23.2` | Done |
-| `kernel_infinix_x6886` | `Kernel.Lineage.23.2` | Done |
-
-### X6886
-
-[![Manifest](https://img.shields.io/badge/Manifest-Done-3DDC84?style=flat-square)](https://github.com/Il103/android_manifest_x6886)
-
-| Repository | Branch | Status |
-|------------|--------|--------|
-| `android_manifest_x6886` | `Manifest.Lineage.23.2` | Done |
-
-### INFINIX_X6886
-
-[![Recovery](https://img.shields.io/badge/Recovery-Done-3DDC84?style=flat-square)](https://github.com/Il103/twrp_device_infinix_X6886)
-
-| Repository | Branch | Status |
-|------------|--------|--------|
-| `twrp_device_infinix_X6886` | `ofox-12.1` | Done |
-
-### TREE_GTA4LVE
-
-[![Device Tree](https://img.shields.io/badge/Device Tree-Done-3DDC84?style=flat-square)](https://github.com/Il103/android_device_tree_gta4lve)
-
-| Repository | Branch | Status |
-|------------|--------|--------|
-| `android_device_tree_gta4lve` | `device-lineage-23.2` | Done |
-
-### SAMSUNG_A15
-
-[![Device Tree](https://img.shields.io/badge/Device Tree-Done-3DDC84?style=flat-square)](https://github.com/Il103/android_device_samsung_a15)
-
-| Repository | Branch | Status |
-|------------|--------|--------|
-| `android_device_samsung_a15` | `android-12.1` | Done |
-
-### X6886_TREE
-
-[![Recovery](https://img.shields.io/badge/Recovery-Done-3DDC84?style=flat-square)](https://github.com/Il103/Il103-twrp_device_x6886_tree)
-
-| Repository | Branch | Status |
-|------------|--------|--------|
-| `Il103-twrp_device_x6886_tree` | `main` | Done |
-
-### INFINIX_X68-86
-
-[![Recovery](https://img.shields.io/badge/Recovery-Done-3DDC84?style=flat-square)](https://github.com/Il103/twrp_device_infinix_X68-86)
-
-| Repository | Branch | Status |
-|------------|--------|--------|
-| `twrp_device_infinix_X68-86` | `pbrp-12.1` | Done |
-
-### SAMSUNG_GTA4L-COMMON
-
-[![Device Tree](https://img.shields.io/badge/Device Tree-Done-3DDC84?style=flat-square)](https://github.com/Il103/android_device_samsung_gta4l-common)
-
-| Repository | Branch | Status |
-|------------|--------|--------|
-| `android_device_samsung_gta4l-common` | `lineage-23.2` | Done |
-
-### SAMSUNG_GTA4L
-
-[![Device Tree](https://img.shields.io/badge/Device Tree-Done-3DDC84?style=flat-square)](https://github.com/Il103/android_device_samsung_gta4l)
-
-| Repository | Branch | Status |
-|------------|--------|--------|
-| `android_device_samsung_gta4l` | `lineage-23.2` | Done |
-
-
+*Loading project info...*
 <!-- PROJECT-END -->
 
 ---
@@ -184,18 +108,7 @@ Ubuntu
 ## Live Activity
 
 <!-- LIVE-START -->
-**Recent Activity**
-
-| Repository | Last Commit | Time |
-|------------|-------------|------|
-| kernel_X6886 | docs: replace generic README with kernel-specific docs [aac51ce](https://github.com/Il103/kernel_infinix_x6886/commit/aac51ce) | 2h ago |
-| manifest_X6886 | docs: update README with correct branch names and local [669a998](https://github.com/Il103/android_manifest_x6886/commit/669a998) | 2h ago |
-| vendor_X6886 | docs: update README with current blob count and branch  [d6baeaa](https://github.com/Il103/vendor_infinix_x6886/commit/d6baeaa) | 2h ago |
-| device_X6886 | docs: update README with current branch names and VNDK  [aa2f36e](https://github.com/Il103/android_device_infinix_x6886/commit/aa2f36e) | 2h ago |
-| twrp_device_X6886 | Add files via upload [a565bda](https://github.com/Il103/twrp_device_infinix_X6886/commit/a565bda) | 20d ago |
-| device_tree_gta4lve | Add odm.prop for soong build [e429561](https://github.com/Il103/android_device_tree_gta4lve/commit/e429561) | 22h ago |
-
-*Last updated: 2026-07-23 23:25:03 UTC*
+*Loading activity...*
 <!-- LIVE-END -->
 
 ---
