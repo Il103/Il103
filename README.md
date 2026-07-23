@@ -146,13 +146,13 @@ Ubuntu
 
 | Repository | Last Commit | Time |
 |------------|-------------|------|
-| device | docs: update README with current branch names and VNDK  [aa2f36e](https://github.com/Il103/android_device_infinix_x6886/commit/aa2f36e) | 2h ago |
-| vendor | docs: update README with current blob count and branch  [d6baeaa](https://github.com/Il103/vendor_infinix_x6886/commit/d6baeaa) | 2h ago |
-| kernel | docs: replace generic README with kernel-specific docs [aac51ce](https://github.com/Il103/kernel_infinix_x6886/commit/aac51ce) | 2h ago |
-| manifest | docs: update README with correct branch names and local [669a998](https://github.com/Il103/android_manifest_x6886/commit/669a998) | 2h ago |
-| Il103 | ci: fix live update - single step, no multiline outputs [0873ead](https://github.com/Il103/Il103/commit/0873ead) | 7s ago |
+| device_X6886 | docs: update README with current branch names and VNDK  [aa2f36e](https://github.com/Il103/android_device_infinix_x6886/commit/aa2f36e) | 2h ago |
+| vendor_X6886 | docs: update README with current blob count and branch  [d6baeaa](https://github.com/Il103/vendor_infinix_x6886/commit/d6baeaa) | 2h ago |
+| kernel_X6886 | docs: replace generic README with kernel-specific docs [aac51ce](https://github.com/Il103/kernel_infinix_x6886/commit/aac51ce) | 2h ago |
+| manifest_X6886 | docs: update README with correct branch names and local [669a998](https://github.com/Il103/android_manifest_x6886/commit/669a998) | 2h ago |
+| Il103 | ci: add Python live activity updater script [0cbe1bf](https://github.com/Il103/Il103/commit/0cbe1bf) | 11s ago |
 
-*Last updated: 2026-07-23 23:19:30 UTC*
+*Last updated: 2026-07-23 23:21:32 UTC*
 <!-- LIVE-END -->
 
 ---
