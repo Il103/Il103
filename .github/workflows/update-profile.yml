@@ -16,99 +16,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Check and update
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Update live activity
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python .github/workflows/update_profile.py
+
+      - name: Commit changes
+        if: success()
         run: |
-          LAST_UPDATE=$(grep -oP 'Last updated: \K[^\*]+' README.md 2>/dev/null | head -1 || echo "never")
-          
-          REPOS="Il103/android_device_infinix_x6886 Il103/vendor_infinix_x6886 Il103/kernel_infinix_x6886 Il103/android_manifest_x6886 Il103/Il103"
-          HAS_NEW="false"
-          NOW=$(date -u +"%Y-%m-%d %H:%M:%S UTC")
-          
-          if [ "$LAST_UPDATE" != "never" ] && [ -n "$LAST_UPDATE" ]; then
-            LAST_EPOCH=$(date -d "$LAST_UPDATE" +%s 2>/dev/null || echo "0")
-          else
-            LAST_EPOCH=0
-          fi
-          
-          NOW_EPOCH=$(date +%s)
-          DIFF=$(( NOW_EPOCH - LAST_EPOCH ))
-          
-          if [ $DIFF -lt 50 ] && [ $LAST_EPOCH -gt 0 ]; then
-            echo "Skipping - last update was ${DIFF}s ago"
-            exit 0
-          fi
-          
-          for REPO in $REPOS; do
-            COMMITS=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-              "https://api.github.com/repos/${REPO}/commits?per_page=1&author=Il103" 2>/dev/null)
-            DATE=$(echo $COMMITS | python3 -c "import sys,json; d=json.load(sys.stdin); print(d[0]['commit']['committer']['date'] if d else '')" 2>/dev/null || echo "")
-            if [ -n "$DATE" ] && [ "$DATE" != "" ]; then
-              COMMIT_EPOCH=$(date -d "$DATE" +%s 2>/dev/null || echo "0")
-              if [ $COMMIT_EPOCH -gt $LAST_EPOCH ] && [ $LAST_EPOCH -gt 0 ]; then
-                HAS_NEW="true"
-              fi
-            fi
-          done
-          
-          if [ "$HAS_NEW" != "true" ]; then
-            echo "No new activity, sleeping..."
-            exit 0
-          fi
-          
-          echo "New activity detected, updating profile..."
-          
-          TABLE="**Recent Activity**\n\n"
-          TABLE+="| Repository | Last Commit | Time |\n"
-          TABLE+="|------------|-------------|------|\n"
-          
-          for REPO in $REPOS; do
-            REPO_NAME=$(echo $REPO | cut -d'/' -f2)
-            COMMITS=$(curl -s -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
-              "https://api.github.com/repos/${REPO}/commits?per_page=1&author=Il103" 2>/dev/null)
-            
-            MSG=$(echo $COMMITS | python3 -c "import sys,json; d=json.load(sys.stdin); print(d[0]['commit']['message'].split(chr(10))[0][:55] if d else 'No commits')" 2>/dev/null || echo "No commits")
-            SHA=$(echo $COMMITS | python3 -c "import sys,json; d=json.load(sys.stdin); print(d[0]['sha'][:7] if d else '')" 2>/dev/null || echo "")
-            DATE=$(echo $COMMITS | python3 -c "import sys,json; d=json.load(sys.stdin); print(d[0]['commit']['committer']['date'] if d else '')" 2>/dev/null || echo "")
-            
-            if [ -n "$DATE" ] && [ "$DATE" != "" ]; then
-              COMMIT_EPOCH=$(date -d "$DATE" +%s 2>/dev/null || echo "0")
-              DIFF_COMMIT=$(( NOW_EPOCH - COMMIT_EPOCH ))
-              if [ $DIFF_COMMIT -lt 60 ]; then
-                TIME="${DIFF_COMMIT}s ago"
-              elif [ $DIFF_COMMIT -lt 3600 ]; then
-                TIME="$(( DIFF_COMMIT / 60 ))m ago"
-              elif [ $DIFF_COMMIT -lt 86400 ]; then
-                TIME="$(( DIFF_COMMIT / 3600 ))h ago"
-              else
-                TIME="$(( DIFF_COMMIT / 86400 ))d ago"
-              fi
-            else
-              TIME="N/A"
-            fi
-            
-            SHORT=$(echo $REPO_NAME | sed 's/android_//' | sed 's/infinix_//' | sed 's/_x6886//')
-            TABLE+="| ${SHORT} | ${MSG} [${SHA}](https://github.com/${REPO}/commit/${SHA}) | ${TIME} |\n"
-          done
-          
-          TABLE+="\n*Last updated: ${NOW}*"
-          
-          echo "$TABLE" > /tmp/table.txt
-          
-          python3 << 'PYEOF'
-          import re
-          with open('/tmp/table.txt', 'r') as f:
-              table = f.read()
-          with open('README.md', 'r') as f:
-              content = f.read()
-          replacement = "<!-- LIVE-START -->\n" + table + "<!-- LIVE-END -->"
-          pattern = r'<!-- LIVE-START -->.*?<!-- LIVE-END -->'
-          content = re.sub(pattern, replacement, content, flags=re.DOTALL)
-          with open('README.md', 'w') as f:
-              f.write(content)
-          PYEOF
-          
           git config user.name "B E R U Bot"
           git config user.email "berucrypt02@gmail.com"
           git add README.md
-          git commit -m "profile: live activity update"
-          git push
+          git diff --cached --quiet || (git commit -m "profile: live activity update" && git push)
