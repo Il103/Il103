@@ -35,7 +35,18 @@ Building custom ROMs, kernels, and recoveries from AOSP source. Currently focuse
 ## Current Project
 
 <!-- PROJECT-START -->
-*Loading project info...*
+### INFINIX_X6886
+
+[![Device Tree](https://img.shields.io/badge/Device%20Tree-Done-3DDC84?style=flat-square)](https://github.com/Il103/android_device_infinix_x6886) [![Vendor Tree](https://img.shields.io/badge/Vendor%20Tree-Done-3DDC84?style=flat-square)](https://github.com/Il103/vendor_infinix_x6886) [![Kernel](https://img.shields.io/badge/Kernel-Done-3DDC84?style=flat-square)](https://github.com/Il103/kernel_infinix_x6886)
+
+| Repository | Branch | Status |
+|------------|--------|--------|
+| `android_device_infinix_x6886` | `Device.Lineage.23.2` | Done |
+| `vendor_infinix_x6886` | `Vendor.Lineage.23.2` | Done |
+| `kernel_infinix_x6886` | `Kernel.Lineage.23.2` | Done |
+| `android_manifest_x6886` | `Manifest.Lineage.23.2` | Done |
+| `twrp_device_infinix_X6886` | `ofox-12.1` | Done |
+
 <!-- PROJECT-END -->
 
 ---
@@ -108,7 +119,18 @@ Ubuntu
 ## Live Activity
 
 <!-- LIVE-START -->
-*Loading activity...*
+| Repository | Last Commit | Time |
+|------------|-------------|------|
+| device_X6886 | docs: update README with current branch names and VNDK  [aa2f36e](https://github.com/Il103/android_device_infinix_x6886/commit/aa2f36e) | 2h ago |
+| vendor_X6886 | docs: update README with current blob count and branch  [d6baeaa](https://github.com/Il103/vendor_infinix_x6886/commit/d6baeaa) | 2h ago |
+| kernel_X6886 | docs: replace generic README with kernel-specific docs [aac51ce](https://github.com/Il103/kernel_infinix_x6886/commit/aac51ce) | 2h ago |
+| manifest_X6886 | docs: update README with correct branch names and local [669a998](https://github.com/Il103/android_manifest_x6886/commit/669a998) | 2h ago |
+| twrp_device_X6886 | Add files via upload [a565bda](https://github.com/Il103/twrp_device_infinix_X6886/commit/a565bda) | 20d ago |
+| Il103 | ci: fix project detection for X6886 only [da44ca1](https://github.com/Il103/Il103/commit/da44ca1) | 24s ago |
+| vendor_tree_gta4lve | Remove android.hardware.wifi.hostapd from Android.bp [ab389a6](https://github.com/Il103/android_vendor_tree_gta4lve/commit/ab389a6) | 21h ago |
+| device_tree_gta4lve | Add odm.prop for soong build [e429561](https://github.com/Il103/android_device_tree_gta4lve/commit/e429561) | 22h ago |
+
+*Last updated: 2026-07-23 23:28:40 UTC*
 <!-- LIVE-END -->
 
 ---
