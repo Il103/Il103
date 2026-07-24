@@ -35,7 +35,7 @@ Building custom ROMs, kernels, and recoveries from AOSP source. Currently focuse
 ## Current Project
 
 <!-- PROJECT-START -->
-### INFINIX_X6886
+### <img src="https://fdn2.gsmarena.com/vv/pics/infinix/infinix-hot-60-pro-plus-2.jpg" width="40" height="40" style="vertical-align:middle; border-radius:8px;"/> Infinix Hot 60 Pro+
 
 [![Device Tree](https://img.shields.io/badge/Device%20Tree-Done-3DDC84?style=flat-square)](https://github.com/Il103/android_device_infinix_x6886) [![Vendor Tree](https://img.shields.io/badge/Vendor%20Tree-Done-3DDC84?style=flat-square)](https://github.com/Il103/vendor_infinix_x6886) [![Kernel](https://img.shields.io/badge/Kernel-Done-3DDC84?style=flat-square)](https://github.com/Il103/kernel_infinix_x6886)
 
