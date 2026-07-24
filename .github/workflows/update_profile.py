@@ -55,7 +55,7 @@ while True:
 print(f"Found {len(all_repos)} repos")
 
 # ---- Detect main project (X6886) ----
-device_name = "INFINIX_X6886"
+device_name = "Infinix Hot 60 Pro+"
 device_repo = "android_device_infinix_x6886"
 vendor_repo = "vendor_infinix_x6886"
 kernel_repo = "kernel_infinix_x6886"
@@ -99,7 +99,7 @@ status_badges.append(f"[![Device Tree](https://img.shields.io/badge/Device%20Tre
 status_badges.append(f"[![Vendor Tree](https://img.shields.io/badge/Vendor%20Tree-{'Done' if vendor_done else 'Partial'}-{('3DDC84' if vendor_done else 'FFD700')}?style=flat-square)](https://github.com/Il103/{vendor_repo})")
 status_badges.append(f"[![Kernel](https://img.shields.io/badge/Kernel-{'Done' if kernel_done else 'Pending'}-{('3DDC84' if kernel_done else 'FF006E')}?style=flat-square)](https://github.com/Il103/{kernel_repo})")
 
-project_section = f"""### {device_name}
+project_section = f"""### <img src="https://fdn2.gsmarena.com/vv/pics/infinix/infinix-hot-60-pro-plus-2.jpg" width="40" height="40" style="vertical-align:middle; border-radius:8px;"/> {device_name} [![last](https://img.shields.io/github/last-commit/Il103/android_device_infinix_x6886?style=flat&color=00E5FF&label=)](https://github.com/Il103/android_device_infinix_x6886)
 
 {" ".join(status_badges)}
 
