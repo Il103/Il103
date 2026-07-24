@@ -28,7 +28,7 @@
 
 **Youssef Mohammed** (Il103) -- 14-year-old Android developer from Egypt.
 
-Building custom ROMs, kernels, and recoveries from AOSP source. Currently focused on LineageOS 23.2 (Android 16) for Infinix X6886 (MT6789/Helio G96).
+Building custom ROMs, kernels, and recoveries from AOSP source. Currently focused on LineageOS 23.2 (Android 16) for Infinix X6886 (G200).
 
 ---
 
