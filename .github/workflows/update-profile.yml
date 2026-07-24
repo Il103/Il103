@@ -2,11 +2,13 @@ name: Update Profile Live
 
 on:
   schedule:
-    - cron: '* * * * *'
+    - cron: '*/15 * * * *'
   push:
     branches: [main]
     paths:
       - 'README.md'
+  repository_dispatch:
+    types: [repo-update]
   workflow_dispatch:
 
 permissions:
