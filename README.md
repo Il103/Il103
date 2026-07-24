@@ -35,7 +35,7 @@ Building custom ROMs, kernels, and recoveries from AOSP source. Currently focuse
 ## Current Project
 
 <!-- PROJECT-START -->
-### INFINIX_X6886
+### <img src="https://fdn2.gsmarena.com/vv/pics/infinix/infinix-hot-60-pro-plus-2.jpg" width="40" height="40" style="vertical-align:middle; border-radius:8px;"/> Infinix Hot 60 Pro+ [![last](https://img.shields.io/github/last-commit/Il103/android_device_infinix_x6886?style=flat&color=00E5FF&label=)](https://github.com/Il103/android_device_infinix_x6886)
 
 [![Device Tree](https://img.shields.io/badge/Device%20Tree-Done-3DDC84?style=flat-square)](https://github.com/Il103/android_device_infinix_x6886) [![Vendor Tree](https://img.shields.io/badge/Vendor%20Tree-Done-3DDC84?style=flat-square)](https://github.com/Il103/vendor_infinix_x6886) [![Kernel](https://img.shields.io/badge/Kernel-Done-3DDC84?style=flat-square)](https://github.com/Il103/kernel_infinix_x6886)
 
@@ -124,11 +124,11 @@ VS Code
 | kernel_X6886 | docs: replace generic README with kernel-specific docs [aac51ce](https://github.com/Il103/kernel_infinix_x6886/commit/aac51ce) | 3h ago |
 | manifest_X6886 | docs: update README with correct branch names and local [669a998](https://github.com/Il103/android_manifest_x6886/commit/669a998) | 3h ago |
 | twrp_device_X6886 | Add files via upload [a565bda](https://github.com/Il103/twrp_device_infinix_X6886/commit/a565bda) | 20d ago |
-| Il103 | profile: fix device name to Infinix Hot 60 Pro+ [2f73770](https://github.com/Il103/Il103/commit/2f73770) | 19s ago |
+| Il103 | fix: device name + image + live badge in Python script [7485a68](https://github.com/Il103/Il103/commit/7485a68) | 26s ago |
 | vendor_tree_gta4lve | Remove android.hardware.wifi.hostapd from Android.bp [ab389a6](https://github.com/Il103/android_vendor_tree_gta4lve/commit/ab389a6) | 22h ago |
 | device_tree_gta4lve | Add odm.prop for soong build [e429561](https://github.com/Il103/android_device_tree_gta4lve/commit/e429561) | 23h ago |
 
-*Last updated: 2026-07-24 00:14:08 UTC*
+*Last updated: 2026-07-24 00:19:12 UTC*
 <!-- LIVE-END -->
 
 ---
