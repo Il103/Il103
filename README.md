@@ -119,14 +119,14 @@ VS Code
 <!-- LIVE-START -->
 | Repository | Last Commit | Time |
 |------------|-------------|------|
-| device_X6886 | docs: update README with current branch names and VNDK  [aa2f36e](https://github.com/Il103/android_device_infinix_x6886/commit/aa2f36e) | 7d ago |
-| vendor_X6886 | docs: update README with current blob count and branch  [d6baeaa](https://github.com/Il103/vendor_infinix_x6886/commit/d6baeaa) | 7d ago |
+| device_X6886 | docs: update README with current branch names and VNDK  [aa2f36e](https://github.com/Il103/android_device_infinix_x6886/commit/aa2f36e) | 8d ago |
+| vendor_X6886 | docs: update README with current blob count and branch  [d6baeaa](https://github.com/Il103/vendor_infinix_x6886/commit/d6baeaa) | 8d ago |
 | manifest_X6886 | Update x6886.xml [b041d83](https://github.com/Il103/android_manifest_x6886/commit/b041d83) | 6d ago |
-| twrp_device_X6886 | Update TARGET_DEVICE condition in Android.mk [2d0e173](https://github.com/Il103/twrp_device_infinix_X6886/commit/2d0e173) | 22h ago |
-| Il103 | profile: auto-update [ebe92f7](https://github.com/Il103/Il103/commit/ebe92f7) | 1h ago |
-| SamFWDumper | Change copyright holder in LICENSE file [997adf1](https://github.com/Il103/SamFWDumper/commit/997adf1) | 15h ago |
+| twrp_device_X6886 | Update TARGET_DEVICE condition in Android.mk [2d0e173](https://github.com/Il103/twrp_device_infinix_X6886/commit/2d0e173) | 23h ago |
+| Il103 | profile: auto-update [1b70fab](https://github.com/Il103/Il103/commit/1b70fab) | 1h ago |
+| SamFWDumper | Change copyright holder in LICENSE file [997adf1](https://github.com/Il103/SamFWDumper/commit/997adf1) | 16h ago |
 
-*Last updated: 2026-07-31 19:54:50 UTC*
+*Last updated: 2026-07-31 21:13:32 UTC*
 <!-- LIVE-END -->
 
 ---
