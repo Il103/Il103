@@ -41,11 +41,11 @@ Building custom ROMs, kernels, and recoveries from AOSP source. Currently focuse
 
 | Repository | Branch | Status |
 |------------|--------|--------|
-| `android_device_infinix_x6886` | `Device.Lineage.23.2` | Done |
-| `vendor_infinix_x6886` | `Vendor.Lineage.23.2` | Done |
-| `kernel_infinix_x6886` | `Prebuilt.Kernel.Lineage.23.2` | Done |
-| `android_manifest_x6886` | `Manifest.Lineage.23.2` | Done |
-| `twrp_device_infinix_X6886` | `fox_12.1` | Done |
+| `android_device_infinix_x6886` | `Device.Lineage.23.2` | Not-Completed - Old |
+| `vendor_infinix_x6886` | `Vendor.Lineage.23.2` | Not-Completed - Old |
+| `kernel_infinix_x6886` | `Prebuilt.Kernel.Lineage.23.2` | Not-Completed - Old |
+| `android_manifest_x6886` | `Manifest.Lineage.23.2` | Not-Completed - Old |
+| `twrp_device_infinix_X6886` | `fox_12.1` | Not-Completed - Old |
 
 <!-- PROJECT-END -->
 
