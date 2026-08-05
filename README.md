@@ -41,11 +41,11 @@ Building custom ROMs, kernels, and recoveries from AOSP source. Currently focuse
 
 | Repository | Branch | Status |
 |------------|--------|--------|
-| `android_device_infinix_x6886` | `Device.Lineage.23.2` | Not-Completed - Old |
-| `vendor_infinix_x6886` | `Vendor.Lineage.23.2` | Not-Completed - Old |
-| `kernel_infinix_x6886` | `Prebuilt.Kernel.Lineage.23.2` | Not-Completed - Old |
-| `android_manifest_x6886` | `Manifest.Lineage.23.2` | Not-Completed - Old |
-| `twrp_device_infinix_X6886` | `fox_12.1` | Not-Completed - Old |
+| `android_device_infinix_x6886` | `Device.Lineage.23.2` | Done |
+| `vendor_infinix_x6886` | `Vendor.Lineage.23.2` | Done |
+| `kernel_infinix_x6886` | `Prebuilt.Kernel.Lineage.23.2` | Done |
+| `android_manifest_x6886` | `Manifest.Lineage.23.2` | Done |
+| `twrp_device_infinix_X6886` | `fox_12.1-a15` | Done |
 
 <!-- PROJECT-END -->
 
@@ -123,11 +123,11 @@ VS Code
 | vendor_X6886 | Update BoardConfigVendor.mk [7b014cf](https://github.com/Il103/vendor_infinix_x6886/commit/7b014cf) | 2d ago |
 | manifest_X6886 | manifest: drop kernel/common now that we always use the [0260c9d](https://github.com/Il103/android_manifest_x6886/commit/0260c9d) | 2d ago |
 | twrp_device_X6886 | Update TARGET_DEVICE condition in Android.mk [2d0e173](https://github.com/Il103/twrp_device_infinix_X6886/commit/2d0e173) | 5d ago |
-| Il103 | profile: auto-update [33af535](https://github.com/Il103/Il103/commit/33af535) | 2h ago |
-| kernel_xiaomi_spinel | Prebuilt GKI kernel tree for Redmi Note 15 4G (spinel)  [f8a05d0](https://github.com/Il103/android_kernel_xiaomi_spinel/commit/f8a05d0) | 3d ago |
-| vendor_xiaomi_spinel | Initial commit [77d3baf](https://github.com/Il103/android_vendor_xiaomi_spinel/commit/77d3baf) | 3d ago |
+| twrp_device_X6886-a16 | Initial commit [b15f3f2](https://github.com/Il103/twrp_device_x6886-a16/commit/b15f3f2) | 4m ago |
+| twrp_device_X6886-a15 | Update TARGET_DEVICE condition in Android.mk [2d0e173](https://github.com/Il103/twrp_device_infinix_X6886-a15/commit/2d0e173) | 5d ago |
+| Il103 | Update repository statuses to 'Not-Completed - Old' [4a5a1a3](https://github.com/Il103/Il103/commit/4a5a1a3) | 19s ago |
 
-*Last updated: 2026-08-05 10:11:22 UTC*
+*Last updated: 2026-08-05 11:31:53 UTC*
 <!-- LIVE-END -->
 
 ---
