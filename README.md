@@ -123,11 +123,11 @@ VS Code
 | vendor_X6886 | Update BoardConfigVendor.mk [7b014cf](https://github.com/Il103/vendor_infinix_x6886/commit/7b014cf) | 5d ago |
 | manifest_X6886 | manifest: drop kernel/common now that we always use the [0260c9d](https://github.com/Il103/android_manifest_x6886/commit/0260c9d) | 5d ago |
 | twrp_device_X6886 | Update TARGET_DEVICE condition in Android.mk [2d0e173](https://github.com/Il103/twrp_device_infinix_X6886/commit/2d0e173) | 9d ago |
-| Il103 | profile: auto-update [17ed8ed](https://github.com/Il103/Il103/commit/17ed8ed) | 30m ago |
-| XOS-16-Firmware-Dumper | Install device-tree-compiler so dtb can be decompiled f [2138291](https://github.com/Il103/XOS-16-Firmware-Dumper/commit/2138291) | 2h ago |
-| twrp_device_X6886-a16 | Initial commit [b15f3f2](https://github.com/Il103/twrp_device_x6886-a16/commit/b15f3f2) | 3d ago |
+| X6886-TWRP-Tree-Forge | Add workflow to generate and audit TWRP tree [f08d6c6](https://github.com/Il103/X6886-TWRP-Tree-Forge/commit/f08d6c6) | 21s ago |
+| Il103 | profile: auto-update [0829efa](https://github.com/Il103/Il103/commit/0829efa) | 2h ago |
+| XOS-16-Firmware-Dumper | Install device-tree-compiler so dtb can be decompiled f [2138291](https://github.com/Il103/XOS-16-Firmware-Dumper/commit/2138291) | 5h ago |
 
-*Last updated: 2026-08-09 00:04:46 UTC*
+*Last updated: 2026-08-09 02:30:35 UTC*
 <!-- LIVE-END -->
 
 ---
