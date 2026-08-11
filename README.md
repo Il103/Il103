@@ -42,7 +42,7 @@ Building custom ROMs, kernels, and recoveries from AOSP source. Currently focuse
 | Repository | Branch | Status |
 |------------|--------|--------|
 | `android_device_infinix_x6886` | `Device.Lineage.23.2` | Done |
-| `vendor_infinix_x6886` | `Vendor.Lineage.23.2` | Done |
+| `vendor_infinix_x6886` | `Vendor.Lineage.23.2-a15` | Done |
 | `kernel_infinix_x6886` | `Prebuilt.Kernel.Lineage.23.2` | Done |
 | `android_manifest_x6886` | `Manifest.Lineage.23.2` | Done |
 | `twrp_device_infinix_X6886` | `fox_12.1-a15` | Done |
@@ -123,11 +123,11 @@ VS Code
 | vendor_X6886 | Update BoardConfigVendor.mk [7b014cf](https://github.com/Il103/vendor_infinix_x6886/commit/7b014cf) | 8d ago |
 | manifest_X6886 | manifest: drop kernel/common now that we always use the [0260c9d](https://github.com/Il103/android_manifest_x6886/commit/0260c9d) | 8d ago |
 | twrp_device_X6886 | Update TARGET_DEVICE condition in Android.mk [2d0e173](https://github.com/Il103/twrp_device_infinix_X6886/commit/2d0e173) | 11d ago |
-| Il103 | profile: auto-update [1f12685](https://github.com/Il103/Il103/commit/1f12685) | 1h ago |
+| vendor_X6886-a15 | Update BoardConfigVendor.mk [7b014cf](https://github.com/Il103/vendor_infinix_x6886-a15/commit/7b014cf) | 8d ago |
+| Il103 | profile: auto-update [3a742cc](https://github.com/Il103/Il103/commit/3a742cc) | 1h ago |
 | X6886-TWRP-Tree-Forge | fix: carry Trustonic runtime evidence and mount persist [de2ccfd](https://github.com/Il103/X6886-TWRP-Tree-Forge/commit/de2ccfd) | 1d ago |
-| demo-sample-project | Add System & Data Manager Suite implementation [7d45027](https://github.com/Il103/demo-sample-project/commit/7d45027) | 1d ago |
 
-*Last updated: 2026-08-11 14:02:07 UTC*
+*Last updated: 2026-08-11 15:17:09 UTC*
 <!-- LIVE-END -->
 
 ---
