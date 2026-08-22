@@ -120,14 +120,14 @@ VS Code
 | Repository | Last Commit | Time |
 |------------|-------------|------|
 | device_X6886 | x6886: always use the prebuilt kernel instead of buildi [f12ea9e](https://github.com/Il103/android_device_infinix_x6886/commit/f12ea9e) | 18d ago |
-| vendor_X6886 | Update BoardConfigVendor.mk [7b014cf](https://github.com/Il103/vendor_infinix_x6886/commit/7b014cf) | 18d ago |
+| vendor_X6886 | Update BoardConfigVendor.mk [7b014cf](https://github.com/Il103/vendor_infinix_x6886/commit/7b014cf) | 19d ago |
 | manifest_X6886 | manifest: drop kernel/common now that we always use the [0260c9d](https://github.com/Il103/android_manifest_x6886/commit/0260c9d) | 18d ago |
 | twrp_device_X6886 | Update TARGET_DEVICE condition in Android.mk [2d0e173](https://github.com/Il103/twrp_device_infinix_X6886/commit/2d0e173) | 22d ago |
-| Il103 | profile: auto-update [f757838](https://github.com/Il103/Il103/commit/f757838) | 1h ago |
-| twrp_device_X6886-a16 | Rename dtb to dtb.img [6952701](https://github.com/Il103/twrp_device_infinix_X6886-a16/commit/6952701) | 9h ago |
-| vendor_X6886-a15 | Update BoardConfigVendor.mk [7b014cf](https://github.com/Il103/vendor_infinix_x6886-a15/commit/7b014cf) | 18d ago |
+| Il103 | profile: auto-update [bbb552a](https://github.com/Il103/Il103/commit/bbb552a) | 1h ago |
+| twrp_device_X6886-a16 | Rename dtb to dtb.img [6952701](https://github.com/Il103/twrp_device_infinix_X6886-a16/commit/6952701) | 10h ago |
+| vendor_X6886-a15 | Update BoardConfigVendor.mk [7b014cf](https://github.com/Il103/vendor_infinix_x6886-a15/commit/7b014cf) | 19d ago |
 
-*Last updated: 2026-08-22 01:52:08 UTC*
+*Last updated: 2026-08-22 02:59:16 UTC*
 <!-- LIVE-END -->
 
 ---
