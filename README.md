@@ -123,11 +123,11 @@ VS Code
 | vendor_X6886 | Update BoardConfigVendor.mk [7b014cf](https://github.com/Il103/vendor_infinix_x6886/commit/7b014cf) | 20d ago |
 | manifest_X6886 | manifest: drop kernel/common now that we always use the [0260c9d](https://github.com/Il103/android_manifest_x6886/commit/0260c9d) | 20d ago |
 | twrp_device_X6886 | Update TARGET_DEVICE condition in Android.mk [2d0e173](https://github.com/Il103/twrp_device_infinix_X6886/commit/2d0e173) | 24d ago |
-| Il103 | profile: auto-update [259b0b0](https://github.com/Il103/Il103/commit/259b0b0) | 27m ago |
-| twrp_device_X6886-a16 | Update BoardConfig.mk for RAMDISK settings and compress [eeb7081](https://github.com/Il103/twrp_device_infinix_X6886-a16/commit/eeb7081) | 4h ago |
+| Il103 | profile: auto-update [1cb6a53](https://github.com/Il103/Il103/commit/1cb6a53) | 1h ago |
 | vendor_X6886-a15 | Update BoardConfigVendor.mk [7b014cf](https://github.com/Il103/vendor_infinix_x6886-a15/commit/7b014cf) | 20d ago |
+| X6886-TWRP-Tree-Forge | fix: carry Trustonic runtime evidence and mount persist [de2ccfd](https://github.com/Il103/X6886-TWRP-Tree-Forge/commit/de2ccfd) | 14d ago |
 
-*Last updated: 2026-08-23 23:58:57 UTC*
+*Last updated: 2026-08-24 01:53:05 UTC*
 <!-- LIVE-END -->
 
 ---
