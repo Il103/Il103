@@ -119,15 +119,15 @@ VS Code
 <!-- LIVE-START -->
 | Repository | Last Commit | Time |
 |------------|-------------|------|
-| device_X6886 | x6886: always use the prebuilt kernel instead of buildi [f12ea9e](https://github.com/Il103/android_device_infinix_x6886/commit/f12ea9e) | 26d ago |
-| vendor_X6886 | Update BoardConfigVendor.mk [7b014cf](https://github.com/Il103/vendor_infinix_x6886/commit/7b014cf) | 26d ago |
-| manifest_X6886 | manifest: drop kernel/common now that we always use the [0260c9d](https://github.com/Il103/android_manifest_x6886/commit/0260c9d) | 26d ago |
+| device_X6886 | x6886: always use the prebuilt kernel instead of buildi [f12ea9e](https://github.com/Il103/android_device_infinix_x6886/commit/f12ea9e) | 27d ago |
+| vendor_X6886 | Update BoardConfigVendor.mk [7b014cf](https://github.com/Il103/vendor_infinix_x6886/commit/7b014cf) | 27d ago |
+| manifest_X6886 | manifest: drop kernel/common now that we always use the [0260c9d](https://github.com/Il103/android_manifest_x6886/commit/0260c9d) | 27d ago |
 | twrp_device_X6886 | Update TARGET_DEVICE condition in Android.mk [2d0e173](https://github.com/Il103/twrp_device_infinix_X6886/commit/2d0e173) | 30d ago |
-| Il103 | profile: auto-update [27d92c0](https://github.com/Il103/Il103/commit/27d92c0) | 2h ago |
-| twrp_device_X6886-a16 | Update maintainer name in README [2badc56](https://github.com/Il103/twrp_device_infinix_X6886-a16/commit/2badc56) | 4h ago |
+| Il103 | profile: auto-update [ab50770](https://github.com/Il103/Il103/commit/ab50770) | 5h ago |
+| twrp_device_X6886-a16 | Update maintainer name in README [2badc56](https://github.com/Il103/twrp_device_infinix_X6886-a16/commit/2badc56) | 9h ago |
 | Old_twrp_device_X6886 | Refactor BoardConfig for OrangeFox and security updates [10ede00](https://github.com/Il103/Old_twrp_device_infinix_X6886/commit/10ede00) | 59d ago |
 
-*Last updated: 2026-08-30 01:43:51 UTC*
+*Last updated: 2026-08-30 07:31:00 UTC*
 <!-- LIVE-END -->
 
 ---
